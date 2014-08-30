@@ -3,4 +3,4 @@ description = This is the installation profile for the Drupalcamp in Cebu editio
 core = 7.x
 dependencies[] = block
 dependencies[] = dblog
-
+dependencies[] = admin_menu
