@@ -1,0 +1,25 @@
+/* line 4, ../sass/style.scss */
+.navbar-inverse {
+  background-color: black;
+}
+
+/* line 8, ../sass/style.scss */
+ul.navbar-nav {
+  float: right;
+  margin-right: 398px;
+}
+
+/* line 13, ../sass/style.scss */
+.navbar-inverse .navbar-nav > .active > a {
+  color: #afafaf;
+}
+
+/* line 17, ../sass/style.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+/* line 21, ../sass/style.scss */
+.register-container {
+  background-color: red;
+}
