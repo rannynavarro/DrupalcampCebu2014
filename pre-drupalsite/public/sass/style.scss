@@ -1,3 +1,7 @@
+
+@font-face { font-family: Delicious; src: url('chinese rocks rg.ttf'); } 
+
+
 body {
 
 }
@@ -20,4 +24,73 @@ ul.navbar-nav {
 
 .register-container {
   background-color: red;
+}
+
+.above-the-fold {
+  height: 855px;
+  background-color: #1d2734;
+  .col-md-4 {
+    padding: 0px;
+    .logo-container {
+      margin-top: 106px;
+    }
+  }
+  .col-md-5 {
+    padding: 0px;
+    .drupalcamp-title {
+      margin-top: 145px;
+      line-height: 90px;
+    }
+    span {
+      font-size: 100px;
+      font-family: "chinese rocks";
+    }
+    span.cebu {
+      font-size: 263px;
+      line-height: 162px;
+    }
+  }
+  .col-md-3 {
+    padding: 0px;
+    background: url('../images/underscore-img.png');
+    background-repeat: repeat-x;
+    height: 383px;
+    margin-top: 151px;
+    .venue-container {
+      margin-top: 24px;
+      span {
+        font-family: "chinese rocks";
+      }
+      span.date {
+        font-size: 39px;
+      }
+      span.uni {
+        font-size: 57px;
+        line-height: 50px;
+      }
+      span.uni-name {
+        font-size: 67px;
+        line-height: 63px;
+      }
+      span.cebucity {
+        font-size: 81px;
+        line-height: 67px;
+      }
+    }
+  }
+}
+
+.col-md-12 {
+  h6 {
+    color: #e3e3e3;
+    font-family: "SourceSansPro";
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.col-md-12 {
+  ul {
+    display: inline-block;
+  }
 }

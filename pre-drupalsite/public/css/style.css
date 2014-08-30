@@ -1,25 +1,111 @@
-/* line 4, ../sass/style.scss */
+@font-face {
+  font-family: Delicious;
+  src: url("chinese rocks rg.ttf");
+}
+
+/* line 8, ../sass/style.scss */
 .navbar-inverse {
   background-color: black;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 ul.navbar-nav {
   float: right;
   margin-right: 398px;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .navbar-inverse .navbar-nav > .active > a {
   color: #afafaf;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 .register-container {
   background-color: red;
+}
+
+/* line 29, ../sass/style.scss */
+.above-the-fold {
+  height: 855px;
+  background-color: #1d2734;
+}
+/* line 32, ../sass/style.scss */
+.above-the-fold .col-md-4 {
+  padding: 0px;
+}
+/* line 34, ../sass/style.scss */
+.above-the-fold .col-md-4 .logo-container {
+  margin-top: 106px;
+}
+/* line 38, ../sass/style.scss */
+.above-the-fold .col-md-5 {
+  padding: 0px;
+}
+/* line 40, ../sass/style.scss */
+.above-the-fold .col-md-5 .drupalcamp-title {
+  margin-top: 145px;
+  line-height: 90px;
+}
+/* line 44, ../sass/style.scss */
+.above-the-fold .col-md-5 span {
+  font-size: 100px;
+  font-family: "chinese rocks";
+}
+/* line 48, ../sass/style.scss */
+.above-the-fold .col-md-5 span.cebu {
+  font-size: 263px;
+  line-height: 162px;
+}
+/* line 53, ../sass/style.scss */
+.above-the-fold .col-md-3 {
+  padding: 0px;
+  background: url("../images/underscore-img.png");
+  background-repeat: repeat-x;
+  height: 383px;
+  margin-top: 151px;
+}
+/* line 59, ../sass/style.scss */
+.above-the-fold .col-md-3 .venue-container {
+  margin-top: 24px;
+}
+/* line 61, ../sass/style.scss */
+.above-the-fold .col-md-3 .venue-container span {
+  font-family: "chinese rocks";
+}
+/* line 64, ../sass/style.scss */
+.above-the-fold .col-md-3 .venue-container span.date {
+  font-size: 39px;
+}
+/* line 67, ../sass/style.scss */
+.above-the-fold .col-md-3 .venue-container span.uni {
+  font-size: 57px;
+  line-height: 50px;
+}
+/* line 71, ../sass/style.scss */
+.above-the-fold .col-md-3 .venue-container span.uni-name {
+  font-size: 67px;
+  line-height: 63px;
+}
+/* line 75, ../sass/style.scss */
+.above-the-fold .col-md-3 .venue-container span.cebucity {
+  font-size: 81px;
+  line-height: 67px;
+}
+
+/* line 84, ../sass/style.scss */
+.col-md-12 h6 {
+  color: #e3e3e3;
+  font-family: "SourceSansPro";
+  font-size: 20px;
+  text-align: center;
+}
+
+/* line 93, ../sass/style.scss */
+.col-md-12 ul {
+  display: inline-block;
 }
