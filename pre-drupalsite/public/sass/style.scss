@@ -1,9 +1,10 @@
+@import "compass/css3";
 
+//////////////////////////////
+// Import Base
+//////////////////////////////
+@import "partials/base";
 
-
-body {
-
-}
 .navbar-inverse {
   background-color: black;
 }
@@ -42,7 +43,7 @@ ul.navbar-nav {
     }
     span {
       font-size: 100px;
-      font-family: "chinese rocks";
+      font-family: $font-logo;
     }
     span.cebu {
       font-size: 263px;
@@ -61,18 +62,18 @@ ul.navbar-nav {
         font-family: "chinese rocks";
       }
       span.date {
-        font-size: 39px;
+        font-size: 38px;
       }
       span.uni {
-        font-size: 57px;
+        font-size: 55px;
         line-height: 50px;
       }
       span.uni-name {
-        font-size: 67px;
+        font-size: 66px;
         line-height: 63px;
       }
       span.cebucity {
-        font-size: 81px;
+        font-size: 80px;
         line-height: 67px;
       }
     }
@@ -96,7 +97,7 @@ ul.menu {
     a {
       color: white;
       text-decoration: none;
-      font-family: "chinese rocks";
+      font-family: $font-logo;
       font-size: 24px;
       padding: 25px;
     }
@@ -142,7 +143,3 @@ ul.menu {
     color: white;
   }
 }
-
-
-
-
