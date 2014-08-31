@@ -1,67 +1,62 @@
-@font-face {
-  font-family: Delicious;
-  src: url("chinese rocks rg.ttf");
-}
-
-/* line 8, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
 .navbar-inverse {
   background-color: black;
 }
 
-/* line 12, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 ul.navbar-nav {
   float: right;
   margin-right: 398px;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .navbar-inverse .navbar-nav > .active > a {
   color: #afafaf;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .register-container {
   background-color: red;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .above-the-fold {
   height: 855px;
   background-color: #1d2734;
 }
-/* line 32, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .above-the-fold .col-md-4 {
   padding: 0px;
 }
-/* line 34, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .above-the-fold .col-md-4 .logo-container {
   margin-top: 106px;
 }
-/* line 38, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .above-the-fold .col-md-5 {
   padding: 0px;
 }
-/* line 40, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .above-the-fold .col-md-5 .drupalcamp-title {
   margin-top: 145px;
   line-height: 90px;
 }
-/* line 44, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .above-the-fold .col-md-5 span {
   font-size: 100px;
   font-family: "chinese rocks";
 }
-/* line 48, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .above-the-fold .col-md-5 span.cebu {
   font-size: 263px;
   line-height: 162px;
 }
-/* line 53, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .above-the-fold .col-md-3 {
   padding: 0px;
   background: url("../images/underscore-img.png");
@@ -69,52 +64,52 @@ ul.navbar-nav {
   height: 383px;
   margin-top: 151px;
 }
-/* line 59, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .above-the-fold .col-md-3 .venue-container {
   margin-top: 24px;
 }
-/* line 61, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .above-the-fold .col-md-3 .venue-container span {
   font-family: "chinese rocks";
 }
-/* line 64, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .above-the-fold .col-md-3 .venue-container span.date {
   font-size: 39px;
 }
-/* line 67, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .above-the-fold .col-md-3 .venue-container span.uni {
   font-size: 57px;
   line-height: 50px;
 }
-/* line 71, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .above-the-fold .col-md-3 .venue-container span.uni-name {
   font-size: 67px;
   line-height: 63px;
 }
-/* line 75, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .above-the-fold .col-md-3 .venue-container span.cebucity {
   font-size: 81px;
   line-height: 67px;
 }
 
-/* line 84, ../sass/style.scss */
-.col-md-12 h6 {
+/* line 83, ../sass/style.scss */
+.drupalcamp-description h6 {
   color: #e3e3e3;
   font-family: "SourceSansPro";
   font-size: 20px;
   text-align: center;
 }
 
-/* line 92, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 ul.menu {
   margin-top: 94px;
   text-align: center;
 }
-/* line 95, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 ul.menu li {
   display: inline;
 }
-/* line 97, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 ul.menu li a {
   color: white;
   text-decoration: none;
@@ -122,7 +117,31 @@ ul.menu li a {
   font-size: 24px;
   padding: 25px;
 }
-/* line 104, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 ul.menu li .register {
   background-color: #ca1e1e;
+}
+
+/* line 109, ../sass/style.scss */
+.camp-speakers {
+  background-color: #f1c419;
+}
+/* line 111, ../sass/style.scss */
+.camp-speakers h3 {
+  font-family: "chinese rocks";
+  font-size: 72px;
+  text-align: center;
+  color: white;
+}
+/* line 117, ../sass/style.scss */
+.camp-speakers h6 {
+  font-family: "SourceSansPro";
+  font-size: 22px;
+  text-align: center;
+}
+/* line 122, ../sass/style.scss */
+.camp-speakers p {
+  font-family: "SourceSansPro";
+  font-size: 24px;
+  text-align: center;
 }

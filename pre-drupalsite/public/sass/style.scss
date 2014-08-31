@@ -1,5 +1,4 @@
 
-@font-face { font-family: Delicious; src: url('chinese rocks rg.ttf'); } 
 
 
 body {
@@ -80,7 +79,7 @@ ul.navbar-nav {
   }
 }
 
-.col-md-12 {
+.drupalcamp-description {
   h6 {
     color: #e3e3e3;
     font-family: "SourceSansPro";
@@ -106,5 +105,26 @@ ul.menu {
     }
   }
 }
+
+.camp-speakers {
+  background-color: #f1c419;
+  h3 {
+    font-family: "chinese rocks";
+    font-size: 72px;
+    text-align: center;
+    color: white;
+  }
+  h6 {
+    font-family: "SourceSansPro";
+    font-size: 22px;
+    text-align: center;
+  }
+  p {
+    font-family: "SourceSansPro";
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
 
 
