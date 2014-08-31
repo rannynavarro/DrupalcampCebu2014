@@ -136,10 +136,17 @@ ul.menu {
     font-family: "SourceSansPro";
     font-size: 24px;
     color: white;
+    margin-bottom: 0px;
+    text-align: center;
   }
   p.speaker-short-bio {
     font-family: "SourceSansPro";
     font-size: 18px;
     color: white;
+    text-align: center;
+  }
+  p.speaker-bio {
+    font-family: "SourceSansPro";
+    font-size: 16px;
   }
 }

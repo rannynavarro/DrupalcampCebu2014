@@ -160,10 +160,22 @@ ul.menu li .register {
   font-family: "SourceSansPro";
   font-size: 24px;
   color: white;
+  margin-bottom: 0px;
+  text-align: center;
 }
+<<<<<<< Updated upstream
 /* line 140, ../sass/style.scss */
+=======
+/* line 141, ../sass/style.scss */
+>>>>>>> Stashed changes
 .speaker-info p.speaker-short-bio {
   font-family: "SourceSansPro";
   font-size: 18px;
   color: white;
+  text-align: center;
+}
+/* line 147, ../sass/style.scss */
+.speaker-info p.speaker-bio {
+  font-family: "SourceSansPro";
+  font-size: 16px;
 }
