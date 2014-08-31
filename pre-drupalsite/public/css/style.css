@@ -105,7 +105,24 @@ ul.navbar-nav {
   text-align: center;
 }
 
-/* line 93, ../sass/style.scss */
-.col-md-12 ul {
-  display: inline-block;
+/* line 92, ../sass/style.scss */
+ul.menu {
+  margin-top: 94px;
+  text-align: center;
+}
+/* line 95, ../sass/style.scss */
+ul.menu li {
+  display: inline;
+}
+/* line 97, ../sass/style.scss */
+ul.menu li a {
+  color: white;
+  text-decoration: none;
+  font-family: "chinese rocks";
+  font-size: 24px;
+  padding: 25px;
+}
+/* line 104, ../sass/style.scss */
+ul.menu li .register {
+  background-color: #ca1e1e;
 }

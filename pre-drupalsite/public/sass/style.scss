@@ -89,8 +89,22 @@ ul.navbar-nav {
   }
 }
 
-.col-md-12 {
-  ul {
-    display: inline-block;
+ul.menu {
+  margin-top: 94px;
+  text-align: center;
+  li {
+    display: inline;
+    a {
+      color: white;
+      text-decoration: none;
+      font-family: "chinese rocks";
+      font-size: 24px;
+      padding: 25px;
+    }
+    .register {
+      background-color: #ca1e1e;
+    }
   }
 }
+
+
