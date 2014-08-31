@@ -127,21 +127,39 @@ ul.menu li .register {
   background-color: #f1c419;
 }
 /* line 111, ../sass/style.scss */
-.camp-speakers h3 {
+.camp-speakers h3.speaker-title {
   font-family: "chinese rocks";
   font-size: 72px;
   text-align: center;
   color: white;
+  margin-top: 90px;
 }
-/* line 117, ../sass/style.scss */
-.camp-speakers h6 {
+/* line 118, ../sass/style.scss */
+.camp-speakers h6.speaker-description {
   font-family: "SourceSansPro";
   font-size: 22px;
   text-align: center;
 }
-/* line 122, ../sass/style.scss */
-.camp-speakers p {
+/* line 123, ../sass/style.scss */
+.camp-speakers p.speaker-announcement {
   font-family: "SourceSansPro";
   font-size: 24px;
   text-align: center;
+}
+
+/* line 131, ../sass/style.scss */
+.speaker-info img {
+  text-align: center;
+}
+/* line 134, ../sass/style.scss */
+.speaker-info p.speaker-name {
+  font-family: "SourceSansPro";
+  font-size: 24px;
+  color: white;
+}
+/* line 139, ../sass/style.scss */
+.speaker-info p.speaker-short-bio {
+  font-family: "SourceSansPro";
+  font-size: 18px;
+  color: white;
 }

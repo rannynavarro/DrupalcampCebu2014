@@ -108,23 +108,41 @@ ul.menu {
 
 .camp-speakers {
   background-color: #f1c419;
-  h3 {
+  h3.speaker-title {
     font-family: "chinese rocks";
     font-size: 72px;
     text-align: center;
     color: white;
+    margin-top: 90px;
   }
-  h6 {
+  h6.speaker-description {
     font-family: "SourceSansPro";
     font-size: 22px;
     text-align: center;
   }
-  p {
+  p.speaker-announcement {
     font-family: "SourceSansPro";
     font-size: 24px;
     text-align: center;
   }
 }
+
+.speaker-info {
+  img {
+    text-align: center;
+  }
+  p.speaker-name {
+    font-family: "SourceSansPro";
+    font-size: 24px;
+    color: white;
+  }
+  p.speaker-short-bio {
+    font-family: "SourceSansPro";
+    font-size: 18px;
+    color: white;
+  }
+}
+
 
 
 
