@@ -1,0 +1,17 @@
+@import "compass/css3";
+
+// @TODO Investigate. Could not get it to work yet (Luc).
+@include font-face(
+  "chinese rocks",
+  font-files(
+      "chinese_rocks/chinese_rocks.woff",
+      "chinese_rocks/chinese_rocks.ttf",
+      "chinese_rocks/chinese_rocks.svg"
+  )
+);
+
+$logo-color-white: #fff;
+$logo-color-yellow: #f0c419;
+$logo-color-blue: #3b97d3;
+
+$font-logo: "chinese rocks";
