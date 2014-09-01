@@ -1,7 +1,8 @@
 @font-face {
   font-family: "chinese rocks";
-  src: url('/public/fonts/chinese_rocks/chinese_rocks.woff?1409440130') format('woff'), url('/public/fonts/chinese_rocks/chinese_rocks.ttf?1409440130') format('truetype'), url('/public/fonts/chinese_rocks/chinese_rocks.svg?1409440130') format('svg');
+  src: url('/public/css/fonts/chinese_rocks/chinese_rocks.woff') format('woff'), url('/public/css/fonts/chinese_rocks/chinese_rocks.ttf') format('truetype'), url('/public/css/fonts/chinese_rocks/chinese_rocks.svg') format('svg');
 }
+
 /* line 8, ../sass/style.scss */
 .navbar-inverse {
   background-color: black;
@@ -163,19 +164,19 @@ ul.menu li .register {
   margin-bottom: 0px;
   text-align: center;
 }
-<<<<<<< Updated upstream
-/* line 140, ../sass/style.scss */
-=======
-/* line 141, ../sass/style.scss */
->>>>>>> Stashed changes
+/* line 142, ../sass/style.scss */
 .speaker-info p.speaker-short-bio {
   font-family: "SourceSansPro";
   font-size: 18px;
   color: white;
   text-align: center;
 }
-/* line 147, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .speaker-info p.speaker-bio {
   font-family: "SourceSansPro";
   font-size: 16px;
+}
+/* line 152, ../sass/style.scss */
+.speaker-info .img-speaker {
+  text-align: center;
 }
