@@ -1,14 +1,20 @@
+/*******************************************************************************
+ * _base.scss
+ ******************************************************************************/
+ 
 @import "compass/css3";
 
 // @TODO Investigate. Could not get it to work yet (Luc).
-@include font-face(
-  "chinese rocks",
-  font-files(
-      "../fonts/chinese_rocks/chinese_rocks.woff",
-      "../fonts/chinese_rocks/chinese_rocks.ttf",
-      "../fonts/chinese_rocks/chinese_rocks.svg"
-  )
-);
+
+/* Chinese Rocks */
+@font-face {
+  font-family: 'chinese rocks';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/chinese_rocks/chinese_rocks.woff');
+  src: url('../fonts/chinese_rocks/chinese_rocks.ttf') format('truetype'), 
+       url('../fonts/chinese_rocks/chinese_rocks.svg') format('svg');
+}
 
 $logo-color-white: #fff;
 $logo-color-yellow: #f0c419;
