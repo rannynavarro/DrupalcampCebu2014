@@ -2,13 +2,9 @@
  * _sponsors.scss
  ******************************************************************************/
 
-.camp-sponsors::before {
-  background: url("../images/sponsor-wave.png") no-repeat 20px 20px;
-  content: "";
-}
 .camp-sponsors {
   &::before {
-    background: url("../images/sponsor-wave.png") no-repeat 0 20px;
+    background: url("../images/black-wave.png") no-repeat 0 20px;
     content: "";
     display: block;
     height: 70px;
@@ -30,16 +26,20 @@
       margin: 50px 0 20px;
       font-family: $font-logo;
     }
+    @mixin sponsor_img {
+      margin: 15px auto;
+      display: block;
+    }
     &.gold-sponsors {
       img {
-        margin: auto;
-        display: block;
+        @include sponsor_img;
         max-width: 305px;
       }
     }
     &.silver-sponsors {
       .col-md-3 {
         img {
+          @include sponsor_img;
           max-width: 210px;
         }
       }
@@ -47,6 +47,7 @@
     &.bronze-sponsors {
       .col-md-2 {
         img {
+          @include sponsor_img;
           max-width: 140px;
         }
       }
