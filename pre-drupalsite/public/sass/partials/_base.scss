@@ -4,9 +4,9 @@
 @include font-face(
   "chinese rocks",
   font-files(
-      "chinese_rocks/chinese_rocks.woff",
-      "chinese_rocks/chinese_rocks.ttf",
-      "chinese_rocks/chinese_rocks.svg"
+      "../fonts/chinese_rocks/chinese_rocks.woff",
+      "../fonts/chinese_rocks/chinese_rocks.ttf",
+      "../fonts/chinese_rocks/chinese_rocks.svg"
   )
 );
 

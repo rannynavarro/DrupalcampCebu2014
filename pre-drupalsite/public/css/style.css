@@ -1,6 +1,6 @@
 @font-face {
   font-family: "chinese rocks";
-  src: url('/public/css/fonts/chinese_rocks/chinese_rocks.woff') format('woff'), url('/public/css/fonts/chinese_rocks/chinese_rocks.ttf') format('truetype'), url('/public/css/fonts/chinese_rocks/chinese_rocks.svg') format('svg');
+  src: url('/public/fonts/../fonts/chinese_rocks/chinese_rocks.woff') format('woff'), url('/public/fonts/../fonts/chinese_rocks/chinese_rocks.ttf') format('truetype'), url('/public/fonts/../fonts/chinese_rocks/chinese_rocks.svg') format('svg');
 }
 
 /* line 8, ../sass/style.scss */
@@ -26,7 +26,7 @@ ul.navbar-nav {
 
 /* line 25, ../sass/style.scss */
 .register-container {
-  background-color: red;
+  background-color: blue;
 }
 
 /* line 29, ../sass/style.scss */
@@ -179,4 +179,121 @@ ul.menu li .register {
 /* line 152, ../sass/style.scss */
 .speaker-info .img-speaker {
   text-align: center;
+}
+
+/* line 157, ../sass/style.scss */
+.camp-sessions {
+  background-color: #0076b0;
+}
+/* line 159, ../sass/style.scss */
+.camp-sessions h3 {
+  font-family: "chinese rocks";
+  font-size: 72px;
+  text-align: center;
+  color: white;
+}
+/* line 165, ../sass/style.scss */
+.camp-sessions h6 {
+  font-family: "SourceSansPro";
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+/* line 171, ../sass/style.scss */
+.camp-sessions p {
+  font-family: "SourceSansPro";
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+/* line 180, ../sass/style.scss */
+.nav-tabs {
+  border-bottom: 0px;
+}
+/* line 182, ../sass/style.scss */
+.nav-tabs ul#camp_session_list {
+  margin-top: 50px;
+}
+/* line 184, ../sass/style.scss */
+.nav-tabs ul#camp_session_list li.active {
+  margin-left: 293px;
+  background: url("../images/box-day1.png") no-repeat;
+  height: 84px;
+  width: 248px;
+}
+/* line 190, ../sass/style.scss */
+.nav-tabs ul#camp_session_list li a.day-one {
+  color: #f1c419;
+  font-family: "chinese rocks";
+  font-size: 60px;
+  border: 0px;
+  position: absolute;
+  background-color: transparent;
+  padding-left: 12px;
+  padding-top: 0px;
+  padding-left: 66%;
+  height: 100%;
+}
+/* line 201, ../sass/style.scss */
+.nav-tabs ul#camp_session_list li a.day-one .test {
+  width: 63%;
+  height: 100%;
+}
+/* line 204, ../sass/style.scss */
+.nav-tabs ul#camp_session_list li a.day-one .test span.month {
+  font-size: 28px;
+  position: absolute;
+  width: 50%;
+  padding-top: 10px;
+}
+/* line 210, ../sass/style.scss */
+.nav-tabs ul#camp_session_list li a.day-one .test span.day {
+  font-size: 14px;
+  position: absolute;
+  margin-top: -43px;
+}
+
+/* line 223, ../sass/style.scss */
+.table tbody tr .time {
+  width: 15%;
+  color: #f1c419;
+  font-family: "SourceSansPro";
+  font-size: 22px;
+}
+/* line 229, ../sass/style.scss */
+.table tbody tr td {
+  border-top: 0px;
+}
+/* line 232, ../sass/style.scss */
+.table tbody tr p {
+  text-align: left;
+}
+/* line 235, ../sass/style.scss */
+.table tbody tr h4.activity {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "SourceSansPro";
+  font-style: italic;
+  font-size: 29px;
+  color: white;
+}
+/* line 243, ../sass/style.scss */
+.table tbody tr p.place {
+  font-family: "SourceSansPro";
+  font-size: 15px;
+  color: #00496d;
+}
+/* line 248, ../sass/style.scss */
+.table tbody tr p.speaker {
+  font-family: "SourceSansPro";
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+/* line 253, ../sass/style.scss */
+.table tbody tr p.speaker span.category {
+  font-family: "SourceSansPro";
+  font-size: 15px;
+  color: #f1c419;
 }
