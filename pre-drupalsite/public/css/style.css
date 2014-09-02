@@ -1,6 +1,24 @@
+/*******************************************************************************
+ * _base.scss
+
+ * Base styles define the default look for HTML and common Drupal elements.
+ *
+ * These rules will generally be made up of element selectors for HTML elements
+ * such as headings, paragraphs and lists. Common Drupal elements such as form
+ * items, collapsible fieldsets and messages should be included in this partial.
+ *
+ * The styleguide module (http://drupal.org/project/styleguide) gives you a good
+ * overview of Drupals common elements for styling. By setting a solid baseline
+ * before adding any more specific customisations you ensure that as any new
+ * features are added they will be correctly styled without any extra work.
+ ******************************************************************************/
+/* Chinese Rocks */
 @font-face {
-  font-family: "chinese rocks";
-  src: url('/public/css/fonts/chinese_rocks/chinese_rocks.woff') format('woff'), url('/public/css/fonts/chinese_rocks/chinese_rocks.ttf') format('truetype'), url('/public/css/fonts/chinese_rocks/chinese_rocks.svg') format('svg');
+  font-family: 'chinese rocks';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/chinese_rocks/chinese_rocks.woff");
+  src: url("../fonts/chinese_rocks/chinese_rocks.ttf") format("truetype"), url("../fonts/chinese_rocks/chinese_rocks.svg") format("svg");
 }
 
 /* line 8, ../sass/style.scss */
