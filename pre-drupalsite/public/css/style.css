@@ -1,16 +1,8 @@
 /*******************************************************************************
+ * style.scss
+ ******************************************************************************/
+/*******************************************************************************
  * _base.scss
-
- * Base styles define the default look for HTML and common Drupal elements.
- *
- * These rules will generally be made up of element selectors for HTML elements
- * such as headings, paragraphs and lists. Common Drupal elements such as form
- * items, collapsible fieldsets and messages should be included in this partial.
- *
- * The styleguide module (http://drupal.org/project/styleguide) gives you a good
- * overview of Drupals common elements for styling. By setting a solid baseline
- * before adding any more specific customisations you ensure that as any new
- * features are added they will be correctly styled without any extra work.
  ******************************************************************************/
 /* Chinese Rocks */
 @font-face {
@@ -21,65 +13,68 @@
   src: url("../fonts/chinese_rocks/chinese_rocks.ttf") format("truetype"), url("../fonts/chinese_rocks/chinese_rocks.svg") format("svg");
 }
 
-/* line 8, ../sass/style.scss */
+/*******************************************************************************
+ * _global.scss
+ ******************************************************************************/
+/* line 5, ../sass/partials/_global.scss */
 .navbar-inverse {
   background-color: black;
 }
 
-/* line 12, ../sass/style.scss */
+/* line 9, ../sass/partials/_global.scss */
 ul.navbar-nav {
   float: right;
   margin-right: 398px;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 14, ../sass/partials/_global.scss */
 .navbar-inverse .navbar-nav > .active > a {
   color: #afafaf;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 18, ../sass/partials/_global.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 22, ../sass/partials/_global.scss */
 .register-container {
   background-color: blue;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 26, ../sass/partials/_global.scss */
 .above-the-fold {
   height: 855px;
   background-color: #1d2734;
 }
-/* line 32, ../sass/style.scss */
+/* line 29, ../sass/partials/_global.scss */
 .above-the-fold .col-md-4 {
   padding: 0px;
 }
-/* line 34, ../sass/style.scss */
+/* line 31, ../sass/partials/_global.scss */
 .above-the-fold .col-md-4 .logo-container {
   margin-top: 106px;
 }
-/* line 38, ../sass/style.scss */
+/* line 35, ../sass/partials/_global.scss */
 .above-the-fold .col-md-5 {
   padding: 0px;
 }
-/* line 40, ../sass/style.scss */
+/* line 37, ../sass/partials/_global.scss */
 .above-the-fold .col-md-5 .drupalcamp-title {
   margin-top: 145px;
   line-height: 90px;
 }
-/* line 44, ../sass/style.scss */
+/* line 41, ../sass/partials/_global.scss */
 .above-the-fold .col-md-5 span {
   font-size: 100px;
   font-family: "chinese rocks";
 }
-/* line 48, ../sass/style.scss */
+/* line 45, ../sass/partials/_global.scss */
 .above-the-fold .col-md-5 span.cebu {
   font-size: 263px;
   line-height: 162px;
 }
-/* line 53, ../sass/style.scss */
+/* line 50, ../sass/partials/_global.scss */
 .above-the-fold .col-md-3 {
   padding: 0px;
   background: url("../images/underscore-img.png");
@@ -87,35 +82,35 @@ ul.navbar-nav {
   height: 383px;
   margin-top: 151px;
 }
-/* line 59, ../sass/style.scss */
+/* line 56, ../sass/partials/_global.scss */
 .above-the-fold .col-md-3 .venue-container {
   margin-top: 24px;
 }
-/* line 61, ../sass/style.scss */
+/* line 58, ../sass/partials/_global.scss */
 .above-the-fold .col-md-3 .venue-container span {
   font-family: "chinese rocks";
 }
-/* line 64, ../sass/style.scss */
+/* line 61, ../sass/partials/_global.scss */
 .above-the-fold .col-md-3 .venue-container span.date {
   font-size: 38px;
 }
-/* line 67, ../sass/style.scss */
+/* line 64, ../sass/partials/_global.scss */
 .above-the-fold .col-md-3 .venue-container span.uni {
   font-size: 55px;
   line-height: 50px;
 }
-/* line 71, ../sass/style.scss */
+/* line 68, ../sass/partials/_global.scss */
 .above-the-fold .col-md-3 .venue-container span.uni-name {
   font-size: 66px;
   line-height: 63px;
 }
-/* line 75, ../sass/style.scss */
+/* line 72, ../sass/partials/_global.scss */
 .above-the-fold .col-md-3 .venue-container span.cebucity {
   font-size: 80px;
   line-height: 67px;
 }
 
-/* line 84, ../sass/style.scss */
+/* line 81, ../sass/partials/_global.scss */
 .drupalcamp-description h6 {
   color: #e3e3e3;
   font-family: "SourceSansPro";
@@ -123,16 +118,16 @@ ul.navbar-nav {
   text-align: center;
 }
 
-/* line 92, ../sass/style.scss */
+/* line 89, ../sass/partials/_global.scss */
 ul.menu {
   margin-top: 94px;
   text-align: center;
 }
-/* line 95, ../sass/style.scss */
+/* line 92, ../sass/partials/_global.scss */
 ul.menu li {
   display: inline;
 }
-/* line 97, ../sass/style.scss */
+/* line 94, ../sass/partials/_global.scss */
 ul.menu li a {
   color: white;
   text-decoration: none;
@@ -140,16 +135,16 @@ ul.menu li a {
   font-size: 24px;
   padding: 25px;
 }
-/* line 104, ../sass/style.scss */
+/* line 101, ../sass/partials/_global.scss */
 ul.menu li .register {
   background-color: #ca1e1e;
 }
 
-/* line 110, ../sass/style.scss */
+/* line 107, ../sass/partials/_global.scss */
 .camp-speakers {
   background-color: #f1c419;
 }
-/* line 112, ../sass/style.scss */
+/* line 109, ../sass/partials/_global.scss */
 .camp-speakers h3.speaker-title {
   font-family: "chinese rocks";
   font-size: 72px;
@@ -157,24 +152,24 @@ ul.menu li .register {
   color: white;
   margin-top: 90px;
 }
-/* line 119, ../sass/style.scss */
+/* line 116, ../sass/partials/_global.scss */
 .camp-speakers h6.speaker-description {
   font-family: "SourceSansPro";
   font-size: 22px;
   text-align: center;
 }
-/* line 124, ../sass/style.scss */
+/* line 121, ../sass/partials/_global.scss */
 .camp-speakers p.speaker-announcement {
   font-family: "SourceSansPro";
   font-size: 24px;
   text-align: center;
 }
 
-/* line 132, ../sass/style.scss */
+/* line 129, ../sass/partials/_global.scss */
 .speaker-info img {
   text-align: center;
 }
-/* line 135, ../sass/style.scss */
+/* line 132, ../sass/partials/_global.scss */
 .speaker-info p.speaker-name {
   font-family: "SourceSansPro";
   font-size: 24px;
@@ -182,42 +177,42 @@ ul.menu li .register {
   margin-bottom: 0px;
   text-align: center;
 }
-/* line 142, ../sass/style.scss */
+/* line 139, ../sass/partials/_global.scss */
 .speaker-info p.speaker-short-bio {
   font-family: "SourceSansPro";
   font-size: 18px;
   color: white;
   text-align: center;
 }
-/* line 148, ../sass/style.scss */
+/* line 145, ../sass/partials/_global.scss */
 .speaker-info p.speaker-bio {
   font-family: "SourceSansPro";
   font-size: 16px;
 }
-/* line 152, ../sass/style.scss */
+/* line 149, ../sass/partials/_global.scss */
 .speaker-info .img-speaker {
   text-align: center;
 }
 
-/* line 157, ../sass/style.scss */
+/* line 154, ../sass/partials/_global.scss */
 .camp-sessions {
   background-color: #0076b0;
 }
-/* line 159, ../sass/style.scss */
+/* line 156, ../sass/partials/_global.scss */
 .camp-sessions h3 {
   font-family: "chinese rocks";
   font-size: 72px;
   text-align: center;
   color: white;
 }
-/* line 165, ../sass/style.scss */
+/* line 162, ../sass/partials/_global.scss */
 .camp-sessions h6 {
   font-family: "SourceSansPro";
   font-size: 22px;
   color: white;
   text-align: center;
 }
-/* line 171, ../sass/style.scss */
+/* line 168, ../sass/partials/_global.scss */
 .camp-sessions p {
   font-family: "SourceSansPro";
   font-size: 24px;
@@ -225,22 +220,22 @@ ul.menu li .register {
   text-align: center;
 }
 
-/* line 180, ../sass/style.scss */
+/* line 177, ../sass/partials/_global.scss */
 .nav-tabs {
   border-bottom: 0px;
 }
-/* line 182, ../sass/style.scss */
+/* line 179, ../sass/partials/_global.scss */
 .nav-tabs ul#camp_session_list {
   margin-top: 50px;
 }
-/* line 184, ../sass/style.scss */
+/* line 181, ../sass/partials/_global.scss */
 .nav-tabs ul#camp_session_list li.active {
   margin-left: 293px;
   background: url("../images/box-day1.png") no-repeat;
   height: 84px;
   width: 248px;
 }
-/* line 190, ../sass/style.scss */
+/* line 187, ../sass/partials/_global.scss */
 .nav-tabs ul#camp_session_list li a.day-one {
   color: #f1c419;
   font-family: "chinese rocks";
@@ -253,41 +248,41 @@ ul.menu li .register {
   padding-left: 66%;
   height: 100%;
 }
-/* line 201, ../sass/style.scss */
+/* line 198, ../sass/partials/_global.scss */
 .nav-tabs ul#camp_session_list li a.day-one .test {
   width: 63%;
   height: 100%;
 }
-/* line 204, ../sass/style.scss */
+/* line 201, ../sass/partials/_global.scss */
 .nav-tabs ul#camp_session_list li a.day-one .test span.month {
   font-size: 28px;
   position: absolute;
   width: 50%;
   padding-top: 10px;
 }
-/* line 210, ../sass/style.scss */
+/* line 207, ../sass/partials/_global.scss */
 .nav-tabs ul#camp_session_list li a.day-one .test span.day {
   font-size: 14px;
   position: absolute;
   margin-top: -43px;
 }
 
-/* line 223, ../sass/style.scss */
+/* line 220, ../sass/partials/_global.scss */
 .table tbody tr .time {
   width: 15%;
   color: #f1c419;
   font-family: "SourceSansPro";
   font-size: 22px;
 }
-/* line 229, ../sass/style.scss */
+/* line 226, ../sass/partials/_global.scss */
 .table tbody tr td {
   border-top: 0px;
 }
-/* line 232, ../sass/style.scss */
+/* line 229, ../sass/partials/_global.scss */
 .table tbody tr p {
   text-align: left;
 }
-/* line 235, ../sass/style.scss */
+/* line 232, ../sass/partials/_global.scss */
 .table tbody tr h4.activity {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -296,20 +291,20 @@ ul.menu li .register {
   font-size: 29px;
   color: white;
 }
-/* line 243, ../sass/style.scss */
+/* line 240, ../sass/partials/_global.scss */
 .table tbody tr p.place {
   font-family: "SourceSansPro";
   font-size: 15px;
   color: #00496d;
 }
-/* line 248, ../sass/style.scss */
+/* line 245, ../sass/partials/_global.scss */
 .table tbody tr p.speaker {
   font-family: "SourceSansPro";
   font-size: 15px;
   color: #fff;
   margin-bottom: 0px;
 }
-/* line 253, ../sass/style.scss */
+/* line 250, ../sass/partials/_global.scss */
 .table tbody tr p.speaker span.category {
   font-family: "SourceSansPro";
   font-size: 15px;
