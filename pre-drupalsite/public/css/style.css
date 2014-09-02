@@ -310,3 +310,67 @@ ul.menu li .register {
   font-size: 15px;
   color: #f1c419;
 }
+
+/*******************************************************************************
+ * _sponsors.scss
+ ******************************************************************************/
+/* line 5, ../sass/partials/_sponsors.scss */
+.camp-sponsors::before {
+  background: url("../images/sponsor-wave.png") no-repeat 20px 20px;
+  content: "";
+}
+
+/* line 9, ../sass/partials/_sponsors.scss */
+.camp-sponsors {
+  background: #333;
+  padding-top: 25px;
+  margin-top: 50px;
+}
+/* line 10, ../sass/partials/_sponsors.scss */
+.camp-sponsors::before {
+  background: url("../images/sponsor-wave.png") no-repeat 0 20px;
+  content: "";
+  display: block;
+  height: 70px;
+  margin-top: -85px;
+}
+/* line 21, ../sass/partials/_sponsors.scss */
+.camp-sponsors .col-md-12 h6 {
+  color: #f1c419;
+}
+/* line 26, ../sass/partials/_sponsors.scss */
+.camp-sponsors .row p {
+  color: #858585;
+  font-size: 36px;
+  text-align: center;
+  margin: 50px 0 20px;
+  font-family: "chinese rocks";
+}
+/* line 34, ../sass/partials/_sponsors.scss */
+.camp-sponsors .row.gold-sponsors img {
+  margin: auto;
+  display: block;
+  max-width: 305px;
+}
+/* line 42, ../sass/partials/_sponsors.scss */
+.camp-sponsors .row.silver-sponsors .col-md-3 img {
+  max-width: 210px;
+}
+/* line 49, ../sass/partials/_sponsors.scss */
+.camp-sponsors .row.bronze-sponsors .col-md-2 img {
+  max-width: 140px;
+}
+
+/*******************************************************************************
+ * _footer.scss
+ ******************************************************************************/
+/* line 5, ../sass/partials/_footer.scss */
+.camp-footer {
+  background: #333;
+}
+/* line 7, ../sass/partials/_footer.scss */
+.camp-footer .col-md-12 {
+  margin: 50px 0 30px;
+  color: #858585;
+  text-align: center;
+}
