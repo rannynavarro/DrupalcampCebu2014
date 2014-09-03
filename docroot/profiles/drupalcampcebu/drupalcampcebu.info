@@ -14,3 +14,5 @@ dependencies[] = ctools
 dependencies[] = features
 dependencies[] = webform
 dependencies[] = disqus
+dependencies[] = content_session
+dependencies[] = content_webform
