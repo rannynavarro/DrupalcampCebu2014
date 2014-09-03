@@ -80,7 +80,6 @@ ul.navbar-nav {
 .drupalcamp-description {
   h6 {
     color: #e3e3e3;
-    font-family: "SourceSansPro";
     font-size: 20px;
     text-align: center;
   }
@@ -106,59 +105,42 @@ ul.menu {
 
 .camp-speakers {
   background-color: #f1c419;
-  h3.speaker-title {
-    font-family: "chinese rocks";
-    font-size: 72px;
-    text-align: center;
-    color: white;
-    margin-top: 90px;
-  }
   h6.speaker-description {
-    font-family: "SourceSansPro";
     font-size: 22px;
     text-align: center;
   }
   p.speaker-announcement {
-    font-family: "SourceSansPro";
     font-size: 24px;
     text-align: center;
   }
 }
-
-.speaker-info {
-  img {
-    text-align: center;
-  }
-  p.speaker-name {
-    font-family: "SourceSansPro";
-    font-size: 24px;
-    color: white;
-    margin-bottom: 0px;
-    text-align: center;
-  }
-  p.speaker-short-bio {
-    font-family: "SourceSansPro";
-    font-size: 18px;
-    color: white;
-    text-align: center;
-  }
-  p.speaker-bio {
-    font-family: "SourceSansPro";
-    font-size: 16px;
-  }
-  .img-speaker {
-    text-align: center;
+.speakers-list {
+  margin-bottom: 75px;
+  .speaker-info {
+    img {
+      text-align: center;
+    }
+    p.speaker-name {
+      font-size: 24px;
+      color: white;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+    p.speaker-short-bio {
+      font-size: 18px;
+      color: white;
+      text-align: center;
+    }
+    p.speaker-bio {
+      font-size: 16px;
+    }
+    .img-speaker {
+      text-align: center;
+    }
   }
 }
-
 .camp-sessions {
   background-color: #0076b0;
-    h3 {
-      font-family: "chinese rocks";
-      font-size: 72px;
-      text-align: center;
-      color: white;
-    }
     h6 {
       font-family: "SourceSansPro";
       font-size: 22px;
@@ -166,7 +148,6 @@ ul.menu {
       text-align: center;
     }
     p {
-      font-family: "SourceSansPro";
       font-size: 24px;
       color: white;
       text-align: center;
@@ -174,47 +155,53 @@ ul.menu {
 }
 
 
-.nav-tabs {
+ul.nav-tabs {
   border-bottom: 0px;
-  ul#camp_session_list {
-    margin-top: 50px;
-    li.active {
-      margin-left: 293px;
-      background: url('../images/box-day1.png') no-repeat;
-      height: 84px;
-      width: 248px;
+  margin: 50px 0px;
+  li {
+    width: 248px;
+    height: 84px;
+    &:nth-child(1) {
+      margin-left: 205px;
     }
-    li a.day-one {
-      color: #f1c419;
-      font-family: "chinese rocks";
-      font-size: 60px;
-      border: 0px;
-      position: absolute;
-      background-color: transparent;
-      padding-left: 12px;
-      padding-top: 0px;
-      padding-left: 66%;
-      height: 100%;
-      .test {
-        width: 63%;
-        height: 100%;
-        span.month {
-          font-size: 28px;
-          position: absolute;
-          width: 50%;
-          padding-top: 10px
-        }
-        span.day {
-          font-size: 14px;
-          position: absolute;
-          margin-top: -43px;
-        }
+    a {
+      border: none !important;
+      background: none !important;
+      padding-top: 0;
+      color: $logo-color-white;
+      font-family: $font-logo;
+      span.tab-title {
+        font-size: 58px;
+        float: left;
       }
+      span.tab-left-first {
+        font-size: 30px;
+        float: right;
+        line-height: 17px;
+        margin-top: 24px;
+      }
+      span.tab-left-second {
+        font-size: 20px;
+        float: right;
+      }
+    }
+  }
+  li.active {
+    background: url('../images/tab-active.png') no-repeat;
+    a {
+      color: $logo-color-yellow;
+    }
+    a:hover {
+      background-color: transparent;
+      padding-top: 0;
+      color: $logo-color-yellow;
     }
   }
 }
 
 .table {
+  margin-left: 60px;
+  margin-bottom: 75px;
   tbody {
     tr {
     .time {
@@ -229,29 +216,17 @@ ul.menu {
     p {
       text-align: left;
     }
-    h4.activity {
-      margin-top: 0px;
-      margin-bottom: 0px;
-      font-family: "SourceSansPro";
-      font-style: italic;
-      font-size: 29px;
-      color: white;
-    }
     p.place {
-      font-family: "SourceSansPro";
-      font-size: 15px;
       color: #00496d;
+      font-size: 15px;
+      span.category {
+        color: $logo-color-yellow;
+      }
     }
     p.speaker {
-      font-family: "SourceSansPro";
-      font-size: 15px;
       color: #fff;
       margin-bottom: 0px;
-      span.category {
-        font-family: "SourceSansPro";
-        font-size: 15px;
-        color: #f1c419;
-      }
+      font-size: 15px;
     }
     }
   }
