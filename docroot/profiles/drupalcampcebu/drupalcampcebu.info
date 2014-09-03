@@ -1,6 +1,10 @@
 name = Drupalcamp Cebu 2014
 description = This is the installation profile for the Drupalcamp in Cebu edition 2014.
 core = 7.x
-dependencies[] = block
-dependencies[] = dblog
-dependencies[] = admin_menu
+
+dependencies[] = field_group
+dependencies[] = libraries
+dependencies[] = mailchimp
+dependencies[] = strongarm
+dependencies[] = config_mailchimp
+dependencies[] = config_user_profile
