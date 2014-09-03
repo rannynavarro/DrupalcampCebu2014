@@ -78,15 +78,31 @@ ul.navbar-nav {
 }
 
 .drupalcamp-description {
-  h6 {
-    color: #e3e3e3;
-    font-size: 20px;
-    text-align: center;
+  .price-tab {
+    background: url('../images/price-tab.png') no-repeat;
+    height: 138px;
+    p {
+      padding: 23px 25px 0px;
+    }
+    span.price-tab-top {
+      font-family: $font-logo;
+      font-size: 24px;
+      color: #fff;
+    }
+    span.price {
+      font-family: $font-logo;
+      font-size: 72px;
+      color: #fff;
+      line-height: 55px;
+    }
+    a {
+      text-decoration: none;
+    }
   }
 }
 
 ul.menu {
-  margin-top: 94px;
+  margin-top: 80px;
   text-align: center;
   li {
     display: inline;
@@ -96,13 +112,20 @@ ul.menu {
       font-family: $font-logo;
       font-size: 24px;
       padding: 25px;
+            padding-top: 4px;
+      padding-left: 10px;
     }
-    .register {
-      background-color: #ca1e1e;
+    a:hover {
+      background: url('../images/register-tab.png') no-repeat;
     }
   }
 }
 
+.camp-speakers-wave {
+  background: url('../images/yellow-wave.png');
+  height: 40px;
+  margin-top: -34px;
+}
 .camp-speakers {
   background-color: #f1c419;
   h6.speaker-description {
@@ -136,8 +159,15 @@ ul.menu {
     }
     .img-speaker {
       text-align: center;
+      margin-top: 50px;
     }
   }
+}
+
+.camp-sessions-wave {
+  background: url('../images/blue-wave.png');
+  height: 40px;
+  margin-top: -37px;
 }
 .camp-sessions {
   background-color: #0076b0;
@@ -229,6 +259,12 @@ ul.nav-tabs {
       font-size: 15px;
     }
     }
+  }
+}
+
+.camp-sponsors {
+  h6 {
+    text-align: center;
   }
 }
 
