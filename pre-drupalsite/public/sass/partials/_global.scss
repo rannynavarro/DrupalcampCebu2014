@@ -23,9 +23,13 @@ ul.navbar-nav {
   background-color: blue;
 }
 
+.container {
+  margin-top: -80px;
+}
 .above-the-fold {
-  height: 855px;
+  height: 895px;
   background-color: #1d2734;
+  padding-top: 25px;
   .col-md-4 {
     padding: 0px;
     .logo-container {
@@ -77,12 +81,20 @@ ul.navbar-nav {
   }
 }
 
+
+
 .drupalcamp-description {
   .price-tab {
     background: url('../images/price-tab.png') no-repeat;
     height: 138px;
+    margin-left: 28%;
     p {
       padding: 23px 25px 0px;
+    }
+    p.price-tab-bottom {
+      color: #fff;
+      padding-left: 3px;
+      font-size: 19px;
     }
     span.price-tab-top {
       font-family: $font-logo;
@@ -99,10 +111,35 @@ ul.navbar-nav {
       text-decoration: none;
     }
   }
+  .pilipinas-tab {
+    background: url('../images/pilipinas.png') no-repeat;
+    height: 161px;
+    margin-left: 34%;
+    margin-top: -25px;
+    p.pilipinas-title {
+      padding-top: 172px;
+      color: #fff;
+      font-size: 19px;
+      margin-left: -25px;
+
+    }
+  }
+  .sun-tab {
+    background: url('../images/sun-tab.png') no-repeat;
+    height: 161px;
+    margin-left: 30%;
+    margin-top: -21px;
+    .sun-tab-description {
+      color: #fff;
+      font-size: 19px;
+      padding-top: 167px;
+      padding-left: 29px
+    }
+  }
 }
 
 ul.menu {
-  margin-top: 80px;
+  margin-top: 95px;
   text-align: center;
   li {
     display: inline;
@@ -124,10 +161,11 @@ ul.menu {
 .camp-speakers-wave {
   background: url('../images/yellow-wave.png');
   height: 40px;
-  margin-top: -34px;
+  margin-top: -70px;
 }
 .camp-speakers {
   background-color: #f1c419;
+  margin-top:   77px;
   h6.speaker-description {
     font-size: 22px;
     text-align: center;
@@ -167,10 +205,11 @@ ul.menu {
 .camp-sessions-wave {
   background: url('../images/blue-wave.png');
   height: 40px;
-  margin-top: -37px;
+  margin-top: -39px;
 }
 .camp-sessions {
   background-color: #0076b0;
+  margin-top: 77px;
     h6 {
       font-family: "SourceSansPro";
       font-size: 22px;
