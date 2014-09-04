@@ -23,23 +23,17 @@ ul.navbar-nav {
   background-color: blue;
 }
 
-.container {
-  margin-top: -80px;
-}
 .above-the-fold {
   height: 895px;
   background-color: #1d2734;
   padding-top: 25px;
   .col-md-4 {
     padding: 0px;
-    .logo-container {
-      margin-top: 106px;
-    }
   }
   .col-md-5 {
     padding: 0px;
     .drupalcamp-title {
-      margin-top: 145px;
+      margin-top: 35px;
       line-height: 90px;
     }
     span {
@@ -56,7 +50,7 @@ ul.navbar-nav {
     background: url('../images/underscore-img.png');
     background-repeat: repeat-x;
     height: 383px;
-    margin-top: 151px;
+    margin-top: 40px;
     .venue-container {
       margin-top: 24px;
       span {
@@ -161,11 +155,10 @@ ul.menu {
 .camp-speakers-wave {
   background: url('../images/yellow-wave.png');
   height: 40px;
-  margin-top: -70px;
+  margin-top: -115px;
 }
 .camp-speakers {
   background-color: #f1c419;
-  margin-top:   77px;
   h6.speaker-description {
     font-size: 22px;
     text-align: center;
@@ -209,7 +202,6 @@ ul.menu {
 }
 .camp-sessions {
   background-color: #0076b0;
-  margin-top: 77px;
     h6 {
       font-family: "SourceSansPro";
       font-size: 22px;
@@ -270,7 +262,7 @@ ul.nav-tabs {
 
 .table {
   margin-left: 60px;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   tbody {
     tr {
     .time {
@@ -305,6 +297,10 @@ ul.nav-tabs {
   h6 {
     text-align: center;
   }
+}
+
+.camp-footer {
+  background-color: #1d2734;
 }
 
 

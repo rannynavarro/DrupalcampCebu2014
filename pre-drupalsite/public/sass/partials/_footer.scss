@@ -3,7 +3,23 @@
  ******************************************************************************/
 
 .camp-footer {
-  background: #333;
+  background: #1d2734;
+  p.footer-description {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+  }
+  p.copyright {
+    font-size: 21px;
+    color: #fff;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f1c419;
+  }
   .col-md-12 {
     margin: 50px 0 30px;
     color: #858585;
