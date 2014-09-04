@@ -5,6 +5,15 @@
 @import "compass/css3";
 
 // @TODO Investigate. Could not get it to work yet (Luc).
+/* Sourcesans Pro*/
+
+@font-face {
+  font-family: 'SourceSansPro';
+  font-style: normal;
+  src: url('../fonts/source-sans-pro/SourceSansPro-Black.otf');
+  src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
+
+}
 
 /* Chinese Rocks */
 @font-face {
@@ -16,8 +25,40 @@
        url('../fonts/chinese_rocks/chinese_rocks.svg') format('svg');
 }
 
+// Colors.
 $logo-color-white: #fff;
 $logo-color-yellow: #f0c419;
 $logo-color-blue: #3b97d3;
+$logo-color-white: #fff;
 
+// Fonts names.
 $font-logo: "chinese rocks";
+
+// Levels.
+$level3-size: 72px;
+
+// Title styling.
+h3 {
+  font-family: $font-logo;
+  font-size: $level3-size;
+  text-align: center;
+  color: $logo-color-white;
+  margin-top: 60px;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "SourceSansPro";
+  font-style: italic;
+  font-size: 29px;
+  color: $logo-color-white;
+}
+
+h6 {
+  font-family: "SourceSansPro";
+}
+
+p {
+  font-family: "SourceSansPro";
+}
