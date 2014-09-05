@@ -2,6 +2,21 @@
  * _global.scss
  ******************************************************************************/
 
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(360deg); }
+  to { -webkit-transform: rotate(0deg); }
+}
+
+@-o-keyframes spin {
+  from { -o-transform: rotate(360deg); }
+  to { -o-transform: rotate(0deg); }
+}
+
+@keyframes spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
 .navbar-inverse {
   background-color: black;
 }
@@ -29,6 +44,16 @@ ul.navbar-nav {
   padding-top: 25px;
   .col-md-4 {
     padding: 0px;
+    .logo-whale {
+      position: absolute;
+      margin-top: 50px;
+      z-index: 9999;
+    }
+    .logo-sun {
+      -webkit-animation: spin 30s infinite linear;
+      -o-animation: spin 30s infinite linear;
+      animation: spin 30s infinite linear;
+    }
   }
   .col-md-5 {
     padding: 0px;
@@ -74,8 +99,6 @@ ul.navbar-nav {
     }
   }
 }
-
-
 
 .drupalcamp-description {
   .price-tab {
