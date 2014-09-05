@@ -53,11 +53,7 @@ function content_session_field_default_field_instances() {
   // Exported field_instance: 'node-session-field_day'
   $field_instances['node-session-field_day'] = array(
     'bundle' => 'session',
-    'default_value' => array(
-      0 => array(
-        'tid' => 8,
-      ),
-    ),
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => 'Day of the Session presentation.',
     'display' => array(
@@ -78,7 +74,7 @@ function content_session_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_day',
     'label' => 'Day',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -254,7 +250,7 @@ function content_session_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_time',
     'label' => 'Time',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'default_value' => 'now',
       'default_value2' => 'same',
