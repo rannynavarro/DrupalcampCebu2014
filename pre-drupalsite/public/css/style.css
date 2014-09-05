@@ -4,14 +4,6 @@
 /*******************************************************************************
  * _base.scss
  ******************************************************************************/
-/* Sourcesans Pro*/
-@font-face {
-  font-family: 'SourceSansPro';
-  font-style: normal;
-  src: url("../fonts/source-sans-pro/SourceSansPro-Black.otf");
-  src: url("../fonts/source-sans-pro/SourceSansPro-Regular.otf");
-}
-
 /* Chinese Rocks */
 @font-face {
   font-family: 'chinese rocks';
@@ -20,34 +12,33 @@
   src: url("../fonts/chinese_rocks/chinese_rocks.woff");
   src: url("../fonts/chinese_rocks/chinese_rocks.ttf") format("truetype"), url("../fonts/chinese_rocks/chinese_rocks.svg") format("svg");
 }
-
-/* line 41, ../sass/partials/_base.scss */
+/* line 31, ../sass/partials/_base.scss */
 h3 {
-  font-family: "chinese rocks";
+  font-family: "chinese rocks", sans-serif;
   font-size: 72px;
   text-align: center;
   color: white;
   margin-top: 40px;
 }
 
-/* line 49, ../sass/partials/_base.scss */
+/* line 39, ../sass/partials/_base.scss */
 h4 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "SourceSansPro";
+  font-family: "Source Sans Pro", sans-serif;
   font-style: italic;
   font-size: 29px;
   color: white;
 }
 
-/* line 58, ../sass/partials/_base.scss */
+/* line 48, ../sass/partials/_base.scss */
 h6 {
-  font-family: "SourceSansPro";
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-/* line 62, ../sass/partials/_base.scss */
+/* line 52, ../sass/partials/_base.scss */
 p {
-  font-family: "SourceSansPro";
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /*******************************************************************************
@@ -101,7 +92,7 @@ ul.navbar-nav {
 /* line 39, ../sass/partials/_global.scss */
 .above-the-fold .col-md-5 span {
   font-size: 100px;
-  font-family: "chinese rocks";
+  font-family: "chinese rocks", sans-serif;
 }
 /* line 43, ../sass/partials/_global.scss */
 .above-the-fold .col-md-5 span.cebu {
@@ -162,13 +153,13 @@ ul.navbar-nav {
 }
 /* line 93, ../sass/partials/_global.scss */
 .drupalcamp-description .price-tab span.price-tab-top {
-  font-family: "chinese rocks";
+  font-family: "chinese rocks", sans-serif;
   font-size: 24px;
   color: #fff;
 }
 /* line 98, ../sass/partials/_global.scss */
 .drupalcamp-description .price-tab span.price {
-  font-family: "chinese rocks";
+  font-family: "chinese rocks", sans-serif;
   font-size: 72px;
   color: #fff;
   line-height: 55px;
@@ -219,7 +210,7 @@ ul.menu li {
 ul.menu li a {
   color: white;
   text-decoration: none;
-  font-family: "chinese rocks";
+  font-family: "chinese rocks", sans-serif;
   font-size: 24px;
   padding: 25px;
   padding-top: 4px;
@@ -328,7 +319,7 @@ ul.nav-tabs li a {
   background: none !important;
   padding-top: 0;
   color: white;
-  font-family: "chinese rocks";
+  font-family: "chinese rocks", sans-serif;
 }
 /* line 234, ../sass/partials/_global.scss */
 ul.nav-tabs li a span.tab-title {
@@ -435,7 +426,7 @@ ul.nav-tabs li.active a:hover {
   font-size: 36px;
   text-align: center;
   margin: 50px 0 20px;
-  font-family: "chinese rocks";
+  font-family: "chinese rocks", sans-serif;
 }
 /* line 34, ../sass/partials/_sponsors.scss */
 .camp-sponsors .row.gold-sponsors img {
@@ -465,19 +456,19 @@ ul.nav-tabs li.active a:hover {
 }
 /* line 7, ../sass/partials/_footer.scss */
 .camp-footer h3 {
-  font-size: 48px;
+  font-size: 40px;
   color: #c3c3c3;
   margin-top: 70px;
 }
 /* line 12, ../sass/partials/_footer.scss */
 .camp-footer p.footer-description {
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   color: #c3c3c3;
 }
 /* line 17, ../sass/partials/_footer.scss */
 .camp-footer p.copyright {
-  font-size: 21px;
+  font-size: 16px;
   color: #c3c3c3;
 }
 /* line 21, ../sass/partials/_footer.scss */
