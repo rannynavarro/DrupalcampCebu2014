@@ -551,13 +551,15 @@ $images_dir = '/public/images/';
           More about the <a href="#">Drupal cebu user group</a>
         </p>
       </div>
+    </div> <!-- row -->
+    <div class="row">
       <div class="col-md-12">
         <p class="copyright">&copy; Copyright 2014 Drupal Camp Cebu. All rights reserved. Drupal is a <a href="#">registered trademark</a> of <a href="#">Dries Buytaert</a>.<br>
           Logo by <a href="#">Lord Geltzdale de Vera</a>. Design by <a href="#">Rein Figuracion</a>. Web development by these <a href="#">amazing guys!</a></p>
       </div>
-    </div>
-  </div>
-</div>
+    </div> <!-- row -->
+  </div> <!-- container -->
+</div> <!-- camp-footer -->
 
 <script src="lib/jquery/jquery.js"></script>
 <script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
