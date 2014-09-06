@@ -562,10 +562,6 @@ $images_dir = '/public/images/';
   </div> <!-- container -->
 </div> <!-- camp-footer -->
 
-<script src="lib/jquery/jquery.js"></script>
-<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
-<script type="text/javascript" src="public/js/site.js"></script>
-<script src="public/js/jquery.js"></script>
 <script type="text/javascript">
   // Function to fix the menu when scrolling.
   jQuery("document").ready(function($){
