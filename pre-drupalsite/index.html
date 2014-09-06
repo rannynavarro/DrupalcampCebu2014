@@ -3,12 +3,12 @@
 <head>
 	<title>Drupal Camp Cebu 2014</title>
 	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="public/css/style.css">
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top hide" role="navigation">
+	<!-- <div class="navbar navbar-inverse navbar-fixed-top hide" role="navigation">
       	<div class="container">
         	<div class="navbar-header">
           		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -27,9 +27,9 @@
               <li><a href="#sponsors">Sponsors</a></li>
               <li class="register-container"><a href="#register">Register</a></li>
           	</ul>
-        	</div><!--/.nav-collapse -->
+        	</div>
       	</div>
-    </div>
+    </div> -->
 
     <div class="above-the-fold">
     	<div class="container">
@@ -60,35 +60,51 @@
                     </div>
                   </div>
                 </div>
-
-    		    <div class="camp-menu">
-    			   <div class="row">
-    				    <div class="col-md-12">
-    					     <ul class="menu">
-    						    <li class="active"><a href="#">Sessions</a></li>
-    						    <li><a href="#">Speakers</a></li>
-    						    <li><a href="#">Venue</a></li>
-    						    <li><a href="#">Sponsors</a></li>
-    						    <li><a href="#" class="register">Register</a></li>
-    					     </ul>
-    				    </div>
-    			   </div>
-    		    </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="nav-container">
+            <div class="nav">
+              <div class="camp-menu">
+                <div class="row">
+                  <div class="col-md-12">
+                    <ul class="menu">
+                      <div class="col-md-3">
+                        <li class="logo-title-menu logo-title-menu-hidden">
+                          <span class="title-1st">DRUPAL</span><span class="title-2nd">CAMP</span> 
+                          <span class="title-3rd">CEBU</span>
+                        </li>
+                      </div>
+                      <div class="col-md-6">
+                        <li class="active"><a href="#">Sessions</a></li>
+                        <li><a href="#">Speakers</a></li>
+                        <li><a href="#">Venue</a></li>
+                        <li><a href="#">Sponsors</a></li>
+                        <li><a href="#" class="register">Register</a></li>
+                      </div>
+                      <div class="col-md-3"></div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+    
 
     <div class="camp-speakers-wave"></div>
-    <div class="camp-speakers">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-12 drupalcamp-speakers">
-    				<h3>Speakers</h3>
-    				<h6 class="speaker-description">Our speakers are international thinkers and doers from business, academia and activism, each bringing their view of the challenges and opportunities available to us.</h6>
-    				<p class="speaker-announcement">More speakers to be announced over the coming weeks.</p>
-          </div>
-    		</div>
+      <div class="camp-speakers">
+        <div class="container">
+    		  <div class="row">
+            <div class="col-md-12 drupalcamp-speakers">
+    				  <h3>Speakers</h3>
+    				  <h6 class="speaker-description">Our speakers are international thinkers and doers from business, academia and activism, each bringing their view of the challenges and opportunities available to us.</h6>
+    				  <p class="speaker-announcement">More speakers to be announced over the coming weeks.</p>
+            </div>
+    		  </div>
 
     		<div class="speakers-list">
     			<div class="row">
@@ -500,6 +516,24 @@ All the sources of this website based on Drupal are Open Source, under GNU GENER
  	<script src="lib/jquery/jquery.js"></script>
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
 	<script type="text/javascript" src="public/js/site.js"></script>
+  <script src="public/js/jquery.js"></script>
+  <script type="text/javascript">
+    // Function to fix the menu when scrolling.
+    jQuery("document").ready(function($){
+      var nav = $('.nav-container');
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 670) {
+            nav.addClass("f-nav");
+            nav.addClass("logo-title-menu");
+            $( ".logo-title-menu-hidden" ).removeClass("hide");
+        } else {
+            nav.removeClass("f-nav");
+            nav.removeClass("logo-title-menu");
+            $( ".logo-title-menu-hidden" ).addClass("hide");
+        }
+    });
+  });
+</script>
 
 </body>
 </html>

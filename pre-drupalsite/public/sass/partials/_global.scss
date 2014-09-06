@@ -104,15 +104,57 @@ ul.navbar-nav {
   color: $color-grey;
   font-size: 20px;
   text-align: center;
+  margin-bottom: 75px;
+}
+
+.nav-container  { 
+  background-color: #1d2734;
+}
+
+.f-nav { 
+  z-index: 9999; 
+  position: fixed; 
+  left: 0; 
+  top: 0; 
+  width: 100%; text-align: center;
+  padding: 5px 0px 7px;
+}
+
+.nav {
+  height: 42px;
 }
 
 ul.menu {
-  margin-top: 95px;
+  margin-top: 6px;
   text-align: center;
+  div.col-md-3 {
+    background: none;
+    height: 0px;
+    margin-top: 0px;
+  }
   li {
+    div.logo-title-menu-hidden {
+      float: left;
+    }
+    span.title-1st {
+      font-family: $font-logo;
+      color: $logo-color-white;
+      font-size: 24px;
+    }
+    span.title-2nd {
+      font-family: $font-logo;
+      color: #3c97d3;
+      font-size: 24px;
+    }
+    span.title-3rd {
+      font-family: $font-logo;
+      color: #f0c419;
+      font-size: 24px;
+      padding-right: 25px;
+    }
     display: inline;
     a {
-      color: white;
+      color: #ececec;
       text-decoration: none;
       font-family: $font-logo;
       font-size: 24px;
