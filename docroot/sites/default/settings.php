@@ -566,6 +566,9 @@ $conf['jquery_update_jquery_admin_version'] = '';
 $conf['jquery_update_jquery_cdn'] = 'none';
 $conf['jquery_update_jquery_version'] = '1.10';
 
+$conf['admin_theme'] = 'seven';
+$conf['admin_theme'] = 'drupalcampcebu2014';
+
 if (file_exists(DRUPAL_ROOT . '/' . conf_path() . '/settings.local.php')) {
   include DRUPAL_ROOT . '/' . conf_path() . '/settings.local.php';
 }

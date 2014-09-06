@@ -89,7 +89,8 @@ $images_dir = '/public/images/';
           <div class="logo-container">
             <img class="logo-whale" src="<?php print $base_path . drupal_get_path('theme', 'drupalcampcebu2014') .
               $images_dir . 'campcebu-whale-alone.png'; ?>">
-            <img class="logo-sun" src="public/images/campcebu-sun-alone.png">
+            <img class="logo-sun" src="<?php print $base_path . drupal_get_path('theme', 'drupalcampcebu2014') .
+              $images_dir . 'campcebu-sun-alone.png'; ?>">
           </div>
         </div>
         <div class="col-md-5">
