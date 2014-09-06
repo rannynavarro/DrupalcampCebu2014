@@ -19,6 +19,9 @@ regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 
+regions[yellow-region]  = 'Yellow region'
+regions[blue-region]  = 'Blue region'
+
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets

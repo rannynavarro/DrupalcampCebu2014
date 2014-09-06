@@ -145,319 +145,325 @@ $images_dir = '/public/images/';
 </div>
 </div>
 
-
-
-<div class="camp-speakers-wave"></div>
-<div class="camp-speakers">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 drupalcamp-speakers">
-        <h3>Speakers</h3>
-        <h6 class="speaker-description">Our speakers are international thinkers and doers from business, academia and activism, each bringing their view of the challenges and opportunities available to us.</h6>
-        <p class="speaker-announcement">More speakers to be announced over the coming weeks.</p>
-      </div>
-    </div>
-
-    <div class="speakers-list">
+<?php if (!empty($page['yellow-region'])): ?>
+  <div class="camp-speakers-wave"></div>
+  <?php print render($page['yellow-region']); ?>
+  <div class="camp-speakers">
+    <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <div class="speaker-info">
-            <div class="img-speaker">
-              <img src="public/images/spkr-melvin-collins.png">
+        <div class="col-md-12 drupalcamp-speakers">
+          <h3>Speakers</h3>
+          <h6 class="speaker-description">Our speakers are international thinkers and doers from business, academia and activism, each bringing their view of the challenges and opportunities available to us.</h6>
+          <p class="speaker-announcement">More speakers to be announced over the coming weeks.</p>
+        </div>
+      </div>
+
+      <div class="speakers-list">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="speaker-info">
+              <div class="img-speaker">
+                <img src="public/images/spkr-melvin-collins.png">
+              </div>
+              <p class="speaker-name">Melvin Collins</p>
+              <p class="speaker-short-bio">Drupal.com, Founder</p>
+              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
             </div>
-            <p class="speaker-name">Melvin Collins</p>
-            <p class="speaker-short-bio">Drupal.com, Founder</p>
-            <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
+          </div>
+
+          <div class="col-md-3">
+            <div class="speaker-info">
+              <div class="img-speaker">
+                <img src="public/images/speaker2.png">
+              </div>
+              <p class="speaker-name">Melvin Collins</p>
+              <p class="speaker-short-bio">Drupal.com, Founder</p>
+              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="speaker-info">
+              <div class="img-speaker">
+                <img src="public/images/speaker3.png">
+              </div>
+              <p class="speaker-name">Melvin Collins</p>
+              <p class="speaker-short-bio">Drupal.com, Founder</p>
+              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="speaker-info">
+              <div class="img-speaker">
+                <img src="public/images/speaker4.png">
+              </div>
+              <p class="speaker-name">Melvin Collins</p>
+              <p class="speaker-short-bio">Drupal.com, Founder</p>
+              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
+            </div>
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="speaker-info">
-            <div class="img-speaker">
-              <img src="public/images/speaker2.png">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="speaker-info">
+              <div class="img-speaker">
+                <img src="public/images/speaker5.png">
+              </div>
+              <p class="speaker-name">Melvin Collins</p>
+              <p class="speaker-short-bio">Drupal.com, Founder</p>
+              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
             </div>
-            <p class="speaker-name">Melvin Collins</p>
-            <p class="speaker-short-bio">Drupal.com, Founder</p>
-            <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
+          </div>
+
+          <div class="col-md-3">
+            <div class="speaker-info">
+              <div class="img-speaker">
+                <img src="public/images/speaker6.png">
+              </div>
+              <p class="speaker-name">Melvin Collins</p>
+              <p class="speaker-short-bio">Drupal.com, Founder</p>
+              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="speaker-info">
+              <div class="img-speaker">
+                <img src="public/images/speaker7.png">
+              </div>
+              <p class="speaker-name">Melvin Collins</p>
+              <p class="speaker-short-bio">Drupal.com, Founder</p>
+              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="speaker-info">
+              <div class="img-speaker">
+                <img src="public/images/speaker8.png">
+              </div>
+              <p class="speaker-name">Melvin Collins</p>
+              <p class="speaker-short-bio">Drupal.com, Founder</p>
+              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-md-3">
-          <div class="speaker-info">
-            <div class="img-speaker">
-              <img src="public/images/speaker3.png">
-            </div>
-            <p class="speaker-name">Melvin Collins</p>
-            <p class="speaker-short-bio">Drupal.com, Founder</p>
-            <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-          </div>
-        </div>
 
-        <div class="col-md-3">
-          <div class="speaker-info">
-            <div class="img-speaker">
-              <img src="public/images/speaker4.png">
-            </div>
-            <p class="speaker-name">Melvin Collins</p>
-            <p class="speaker-short-bio">Drupal.com, Founder</p>
-            <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-          </div>
+    </div>
+  </div>
+<?php endif; ?>
+
+<?php if (!empty($page['blue-region'])): ?>
+  <div class="camp-sessions-wave"></div>
+  <?php print render($page['blue-region']); ?>
+  <div class="camp-sessions">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Sessions</h3>
+          <h6>Drupal Camp is a 2-day conference running from 9.30 am - 5.30 pm.<br>
+            A lovely lunch together provides an informal way to get to know other participants and keep<br>the conversation going.</h6>
+          <p>More speakers to be announced over the coming weeks.</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3">
-          <div class="speaker-info">
-            <div class="img-speaker">
-              <img src="public/images/speaker5.png">
+        <div class="col-md-1"></div>
+        <div class="col-md-9">
+          <ul id="camp_session_list" class="nav nav-tabs">
+            <li class="active">
+              <a href="#day_one" role="tab" data-toggle="tab">
+                <span class="tab-title">DAY 01</span>
+                <span class="tab-left-first">NOV 14</span>
+                <span class="tab-left-second">SATURDAY</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#day_two" role="tab" data-toggle="tab">
+                <span class="tab-title">DAY 02</span>
+                <span class="tab-left-first">NOV 15</span>
+                <span class="tab-left-second">SUNDAY</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane fade active in" id="day_one">
+              <table class="table">
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:00 AM</td>
+                  <td>
+                    <h4 class="activity">Registration &amp; Coffee</h4>
+                    <p class="place">Hallway</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Keynote</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place">ROOM A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>10:00 AM</td>
+                  <td>
+                    <h4 class="activity">Running Effective Meetings</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place"><span class="category">CATEGORY A</span> ROOM A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <h4 class="activity">The Symphony Way</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place"><span class="category">CATEGORY A</span> ROOM B</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <h4 class="activity">Configuration management in Drupal 8</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place"><span class="category">CATEGORY A</span> ROOM C</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Google Analytics</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place"><span class="category">CATEGORY A</span> ROOM A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Lunch</h4>
+                    <p class="place"><span class="category">THANK YOU PROMET INC.</span></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Introducing the Drupal 8 Console scaffolding module generator</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place"><p class="place"><span class="category">CATEGORY A</span> ROOM A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Securing Your Drupal Site</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place"><p class="place"><span class="category">CATEGORY A</span> ROOM A</p>
+                  </td>
+                </tr>
+              </table>
             </div>
-            <p class="speaker-name">Melvin Collins</p>
-            <p class="speaker-short-bio">Drupal.com, Founder</p>
-            <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-          </div>
-        </div>
 
-        <div class="col-md-3">
-          <div class="speaker-info">
-            <div class="img-speaker">
-              <img src="public/images/speaker6.png">
+            <div class="tab-pane fade" id="day_two">
+              <table class="table">
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:00 AM</td>
+                  <td>
+                    <h4 class="activity">Day 2 Registration &amp; Coffee</h4>
+                    <p class="speaker">Hallway</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Keynote</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place">Room A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>10:00 AM</td>
+                  <td>
+                    <h4 class="activity">Running Effective Meetings</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place"><i class="fa fa-clock-o"></i>Room A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <h4 class="activity">The Symphony Way</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place">Room A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <h4 class="activity">The Symphony Way</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place">Room A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Keynote</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place">Room A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Keynote</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place">Room A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Keynote</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place">Room A</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"><i class="fa fa-clock-o"></i><i class="fa fa-clock-o"></i>9:30 AM</td>
+                  <td>
+                    <h4 class="activity">Keynote</h4>
+                    <p class="speaker">By Speaker</p>
+                    <p class="place">Room A</p>
+                  </td>
+                </tr>
+              </table>
             </div>
-            <p class="speaker-name">Melvin Collins</p>
-            <p class="speaker-short-bio">Drupal.com, Founder</p>
-            <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="speaker-info">
-            <div class="img-speaker">
-              <img src="public/images/speaker7.png">
-            </div>
-            <p class="speaker-name">Melvin Collins</p>
-            <p class="speaker-short-bio">Drupal.com, Founder</p>
-            <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="speaker-info">
-            <div class="img-speaker">
-              <img src="public/images/speaker8.png">
-            </div>
-            <p class="speaker-name">Melvin Collins</p>
-            <p class="speaker-short-bio">Drupal.com, Founder</p>
-            <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-</div>
-
-<div class="camp-sessions-wave"></div>
-<div class="camp-sessions">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h3>Sessions</h3>
-        <h6>Drupal Camp is a 2-day conference running from 9.30 am - 5.30 pm.<br>
-          A lovely lunch together provides an informal way to get to know other participants and keep<br>the conversation going.</h6>
-        <p>More speakers to be announced over the coming weeks.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-9">
-        <ul id="camp_session_list" class="nav nav-tabs">
-          <li class="active">
-            <a href="#day_one" role="tab" data-toggle="tab">
-              <span class="tab-title">DAY 01</span>
-              <span class="tab-left-first">NOV 14</span>
-              <span class="tab-left-second">SATURDAY</span>
-            </a>
-          </li>
-          <li class="">
-            <a href="#day_two" role="tab" data-toggle="tab">
-              <span class="tab-title">DAY 02</span>
-              <span class="tab-left-first">NOV 15</span>
-              <span class="tab-left-second">SUNDAY</span>
-            </a>
-          </li>
-        </ul>
-
-        <div class="tab-content">
-          <div class="tab-pane fade active in" id="day_one">
-            <table class="table">
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:00 AM</td>
-                <td>
-                  <h4 class="activity">Registration &amp; Coffee</h4>
-                  <p class="place">Hallway</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Keynote</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place">ROOM A</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>10:00 AM</td>
-                <td>
-                  <h4 class="activity">Running Effective Meetings</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place"><span class="category">CATEGORY A</span> ROOM A</p>
-                </td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>
-                  <h4 class="activity">The Symphony Way</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place"><span class="category">CATEGORY A</span> ROOM B</p>
-                </td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>
-                  <h4 class="activity">Configuration management in Drupal 8</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place"><span class="category">CATEGORY A</span> ROOM C</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Google Analytics</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place"><span class="category">CATEGORY A</span> ROOM A</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Lunch</h4>
-                  <p class="place"><span class="category">THANK YOU PROMET INC.</span></p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Introducing the Drupal 8 Console scaffolding module generator</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place"><p class="place"><span class="category">CATEGORY A</span> ROOM A</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Securing Your Drupal Site</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place"><p class="place"><span class="category">CATEGORY A</span> ROOM A</p>
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <div class="tab-pane fade" id="day_two">
-            <table class="table">
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:00 AM</td>
-                <td>
-                  <h4 class="activity">Day 2 Registration &amp; Coffee</h4>
-                  <p class="speaker">Hallway</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Keynote</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place">Room A</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>10:00 AM</td>
-                <td>
-                  <h4 class="activity">Running Effective Meetings</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place"><i class="fa fa-clock-o"></i>Room A</p>
-                </td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>
-                  <h4 class="activity">The Symphony Way</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place">Room A</p>
-                </td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>
-                  <h4 class="activity">The Symphony Way</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place">Room A</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Keynote</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place">Room A</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Keynote</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place">Room A</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Keynote</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place">Room A</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="time"><i class="fa fa-clock-o"></i><i class="fa fa-clock-o"></i>9:30 AM</td>
-                <td>
-                  <h4 class="activity">Keynote</h4>
-                  <p class="speaker">By Speaker</p>
-                  <p class="place">Room A</p>
-                </td>
-              </tr>
-            </table>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+<?php endif; ?>
 
-<div class="camp-venue">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="venue-info">
-          <h3 class="venue-label">Venue</h3>
-          <p class="venue-address">UNIVERSITY OF SAN CARLOS - Talamban Campus. Nasipit, Talamban Cebu City.</p>
+<?php if(drupal_is_front_page()):?>
+  <div class="camp-venue">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="venue-info">
+            <h3 class="venue-label">Venue</h3>
+            <p class="venue-address">UNIVERSITY OF SAN CARLOS - Talamban Campus. Nasipit, Talamban Cebu City.</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3924.8531820579547!2d123.9109376342627!3d10.353622172260941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUniversity+of+San+Carlos%2C+Talamban!5e0!3m2!1sen!2sph!4v1409822043976" width="100%" height="700px" frameborder="0" style="border:0"></iframe>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3924.8531820579547!2d123.9109376342627!3d10.353622172260941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUniversity+of+San+Carlos%2C+Talamban!5e0!3m2!1sen!2sph!4v1409822043976" width="100%" height="700px" frameborder="0" style="border:0"></iframe>
       </div>
     </div>
   </div>
-</div>
+<?php endif; ?>
 
 <div class="camp-sponsors">
   <div class="container">
