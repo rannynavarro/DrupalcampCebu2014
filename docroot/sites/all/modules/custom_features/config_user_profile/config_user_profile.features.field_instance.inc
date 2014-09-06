@@ -10,6 +10,42 @@
 function config_user_profile_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'user-user-field_biography'
+  $field_instances['user-user-field_biography'] = array(
+    'bundle' => 'user',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 9,
+      ),
+    ),
+    'entity_type' => 'user',
+    'field_name' => 'field_biography',
+    'label' => 'Biography',
+    'required' => 0,
+    'settings' => array(
+      'display_summary' => 0,
+      'text_processing' => 1,
+      'user_register_form' => 1,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+        'summary_rows' => 5,
+      ),
+      'type' => 'text_textarea_with_summary',
+      'weight' => 10,
+    ),
+  );
+
   // Exported field_instance: 'user-user-field_image'
   $field_instances['user-user-field_image'] = array(
     'bundle' => 'user',
@@ -50,7 +86,7 @@ function config_user_profile_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 4,
+      'weight' => 5,
     ),
   );
 
@@ -84,7 +120,7 @@ function config_user_profile_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 8,
     ),
   );
 
@@ -152,7 +188,7 @@ function config_user_profile_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 6,
     ),
   );
 
@@ -186,7 +222,7 @@ function config_user_profile_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 3,
+      'weight' => 7,
     ),
   );
 
@@ -275,12 +311,13 @@ function config_user_profile_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 6,
+      'weight' => 9,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Biography');
   t('Company');
   t('First Name');
   t('Image');
