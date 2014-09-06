@@ -27,6 +27,7 @@ function config_user_profile_field_group_info() {
       1 => 'field_user_first_name',
       2 => 'field_user_last_name',
       3 => 'field_user_position',
+      4 => 'field_image',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
