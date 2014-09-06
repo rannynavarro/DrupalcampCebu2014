@@ -26,4 +26,4 @@ dependencies[] = content_session
 dependencies[] = content_webform
 dependencies[] = config_mailchimp
 dependencies[] = config_user_profile
-dependencies[] = environment_indicator_feature
+dependencies[] = config_environment_indicator_feature
