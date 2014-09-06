@@ -435,11 +435,6 @@ ul.nav-tabs li.active a:hover {
 }
 
 /* line 313, ../sass/partials/_global.scss */
-.camp-sponsors h6 {
-  text-align: center;
-}
-
-/* line 318, ../sass/partials/_global.scss */
 .camp-footer {
   background-color: #1d2734;
 }
@@ -461,35 +456,75 @@ ul.nav-tabs li.active a:hover {
   height: 70px;
   margin-top: -85px;
 }
-/* line 17, ../sass/partials/_sponsors.scss */
+/* line 16, ../sass/partials/_sponsors.scss */
+.camp-sponsors .col-md-12 {
+  margin-bottom: 50px;
+}
+/* line 18, ../sass/partials/_sponsors.scss */
 .camp-sponsors .col-md-12 h6 {
   color: #f1c419;
+  font-size: 22px;
+  text-align: center;
 }
 /* line 22, ../sass/partials/_sponsors.scss */
+.camp-sponsors .col-md-12 h6 a {
+  color: #fff;
+}
+/* line 25, ../sass/partials/_sponsors.scss */
+.camp-sponsors .col-md-12 h6 a:hover {
+  color: #f1c419;
+  text-decoration: underline;
+}
+/* line 32, ../sass/partials/_sponsors.scss */
 .camp-sponsors .row p {
   color: #858585;
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
   margin: 50px 0 20px;
   font-family: "chinese rocks", sans-serif;
 }
-/* line 34, ../sass/partials/_sponsors.scss */
+/* line 44, ../sass/partials/_sponsors.scss */
 .camp-sponsors .row.gold-sponsors img {
   margin: 15px auto;
   display: block;
   max-width: 305px;
 }
-/* line 41, ../sass/partials/_sponsors.scss */
+/* line 51, ../sass/partials/_sponsors.scss */
 .camp-sponsors .row.silver-sponsors .col-md-3 img {
   margin: 15px auto;
   display: block;
   max-width: 210px;
 }
-/* line 49, ../sass/partials/_sponsors.scss */
+/* line 59, ../sass/partials/_sponsors.scss */
 .camp-sponsors .row.bronze-sponsors .col-md-2 img {
   margin: 15px auto;
   display: block;
   max-width: 140px;
+}
+/* line 66, ../sass/partials/_sponsors.scss */
+.camp-sponsors .food-sponsors {
+  text-align: center;
+}
+/* line 68, ../sass/partials/_sponsors.scss */
+.camp-sponsors .food-sponsors img {
+  max-width: 55%;
+}
+/* line 72, ../sass/partials/_sponsors.scss */
+.camp-sponsors .coffee-sponsors {
+  text-align: center;
+}
+/* line 74, ../sass/partials/_sponsors.scss */
+.camp-sponsors .coffee-sponsors img {
+  max-width: 55%;
+}
+/* line 78, ../sass/partials/_sponsors.scss */
+.camp-sponsors .saturday-sponsors {
+  text-align: center;
+  margin-bottom: 75px;
+}
+/* line 81, ../sass/partials/_sponsors.scss */
+.camp-sponsors .saturday-sponsors img {
+  max-width: 55%;
 }
 
 /*******************************************************************************
@@ -519,7 +554,7 @@ ul.nav-tabs li.active a:hover {
 /* line 21, ../sass/partials/_footer.scss */
 .camp-footer a {
   color: #c3c3c3;
-  text-decoration: none;
+  text-decoration: underline;
 }
 /* line 25, ../sass/partials/_footer.scss */
 .camp-footer a:hover {

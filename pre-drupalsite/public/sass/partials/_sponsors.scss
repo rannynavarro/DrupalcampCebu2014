@@ -14,14 +14,24 @@
   padding-top: 25px;
   margin-top: 50px;
   .col-md-12 {
+    margin-bottom: 50px;
     h6 {
       color: #f1c419;
+      font-size: 22px;
+      text-align: center;
+      a {
+        color: #fff;
+      }
+      a:hover {
+        color: #f1c419;
+        text-decoration: underline;
+      }
     }
   }
   .row {
     p {
       color: #858585;
-      font-size: 36px;
+      font-size: 48px;
       text-align: center;
       margin: 50px 0 20px;
       font-family: $font-logo;
@@ -51,6 +61,25 @@
           max-width: 140px;
         }
       }
+    }
+  }
+  .food-sponsors {
+    text-align: center;
+    img{
+      max-width: 55%;
+    }
+  }
+  .coffee-sponsors {
+    text-align: center;
+    img {
+      max-width: 55%;
+    }
+  }
+  .saturday-sponsors {
+    text-align: center;
+    margin-bottom: 75px;
+    img {
+      max-width: 55%;
     }
   }
 }
