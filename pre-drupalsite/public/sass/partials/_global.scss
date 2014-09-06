@@ -3,18 +3,18 @@
  ******************************************************************************/
 
 @-webkit-keyframes spin {
-  from { -webkit-transform: rotate(360deg); }
-  to { -webkit-transform: rotate(0deg); }
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
 }
 
 @-o-keyframes spin {
-  from { -o-transform: rotate(360deg); }
-  to { -o-transform: rotate(0deg); }
+  from { -o-transform: rotate(0deg); }
+  to { -o-transform: rotate(360deg); }
 }
 
 @keyframes spin {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0deg); }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .navbar-inverse {
@@ -41,7 +41,7 @@ ul.navbar-nav {
 .above-the-fold {
   height: 895px;
   background-color: #1d2734;
-  padding-top: 25px;
+  padding-top: 60px;
   .col-md-4 {
     padding: 0px;
     .logo-whale {
@@ -100,59 +100,10 @@ ul.navbar-nav {
   }
 }
 
-.drupalcamp-description {
-  .price-tab {
-    background: url('../images/price-tab.png') no-repeat;
-    height: 138px;
-    margin-left: 28%;
-    p {
-      padding: 23px 25px 0px;
-    }
-    p.price-tab-bottom {
-      color: #fff;
-      padding-left: 3px;
-      font-size: 19px;
-    }
-    span.price-tab-top {
-      font-family: $font-logo;
-      font-size: 24px;
-      color: #fff;
-    }
-    span.price {
-      font-family: $font-logo;
-      font-size: 72px;
-      color: #fff;
-      line-height: 55px;
-    }
-    a {
-      text-decoration: none;
-    }
-  }
-  .pilipinas-tab {
-    background: url('../images/pilipinas.png') no-repeat;
-    height: 161px;
-    margin-left: 34%;
-    margin-top: -25px;
-    p.pilipinas-title {
-      padding-top: 172px;
-      color: #fff;
-      font-size: 19px;
-      margin-left: -25px;
-
-    }
-  }
-  .sun-tab {
-    background: url('../images/sun-tab.png') no-repeat;
-    height: 161px;
-    margin-left: 30%;
-    margin-top: -21px;
-    .sun-tab-description {
-      color: #fff;
-      font-size: 19px;
-      padding-top: 167px;
-      padding-left: 29px
-    }
-  }
+.header-intro-text p {
+  color: $color-grey;
+  font-size: 20px;
+  text-align: center;
 }
 
 ul.menu {
