@@ -560,6 +560,12 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  */
 # $conf['allow_authorize_operations'] = FALSE;
 
+// jQuery update configuration.
+$conf['jquery_update_compression_type'] = 'none';
+$conf['jquery_update_jquery_admin_version'] = '';
+$conf['jquery_update_jquery_cdn'] = 'none';
+$conf['jquery_update_jquery_version'] = '1.10';
+
 if (file_exists(DRUPAL_ROOT . '/' . conf_path() . '/settings.local.php')) {
   include DRUPAL_ROOT . '/' . conf_path() . '/settings.local.php';
 }
