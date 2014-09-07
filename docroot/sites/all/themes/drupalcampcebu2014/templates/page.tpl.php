@@ -75,11 +75,9 @@
 
 global $base_path;
 $images_dir = '/public/images/';
-
-// <?php print $base_path . drupal_get_path('theme', 'drupalcampcebu2014') .
-// $images_dir . 'campcebu-sun-alone.png';
-
 ?>
+
+<div class="main-container">
 
 <div class="above-the-fold">
   <div class="container">
@@ -116,146 +114,58 @@ $images_dir = '/public/images/';
     </div>
   </div>
 
-  <div class="nav-container">
-    <div class="nav">
-      <div class="camp-menu">
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="menu">
-              <div class="col-md-3">
-                <li class="logo-title-menu logo-title-menu-hidden">
-                  <span class="title-1st">DRUPAL</span><span class="title-2nd">CAMP</span>
-                  <span class="title-3rd">CEBU</span>
-                </li>
-              </div>
-              <div class="col-md-6">
-                <li class="active"><a href="#">Sessions</a></li>
-                <li><a href="#">Speakers</a></li>
-                <li><a href="#">Venue</a></li>
-                <li><a href="#">Sponsors</a></li>
-                <li><a href="#" class="register">Register</a></li>
-              </div>
-              <div class="col-md-3"></div>
-            </ul>
+  <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+    <div class="nav-container">
+      <div class="nav">
+        <div class="camp-menu">
+          <div class="row">
+            <div class="col-md-12">
+              <?php if (!empty($primary_nav)): ?>
+                <ul class="menu">
+                  <div class="col-md-3">
+                    <li class="logo-title-menu logo-title-menu-hidden">
+                      <span class="title-1st">DRUPAL</span><span class="title-2nd">CAMP</span>
+                      <span class="title-3rd">CEBU</span>
+                    </li>
+                  </div>
+                  <div class="col-md-6">
+                    <?php
+                    foreach($primary_nav as $primary_menu_item) {
+                      print render($primary_menu_item);
+                    }
+                    ?>
+                </div>
+              </ul>
+              <?php endif; ?>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  <?php endif; ?>
+
 </div>
-</div>
 
-<?php if (!empty($page['yellow-region'])): ?>
-  <div class="camp-speakers-wave"></div>
-  <?php print render($page['yellow-region']); ?>
-  <div class="camp-speakers">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 drupalcamp-speakers">
-          <h3>Speakers</h3>
-          <h6 class="speaker-description">Our speakers are international thinkers and doers from business, academia and activism, each bringing their view of the challenges and opportunities available to us.</h6>
-          <p class="speaker-announcement">More speakers to be announced over the coming weeks.</p>
-        </div>
+<div class="camp-speakers-wave"></div>
+
+
+<div class="camp-speakers">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 drupalcamp-speakers">
+        <?php if (!empty($title)): ?>
+          <h1 class="page-header"><?php print $title; ?></h1>
+        <?php endif; ?>
+<!--        <h3>Speakers</h3>-->
+        <?php print $messages; ?>
+        <?php print render($page['content']); ?>
+        <?php if (!empty($page['yellow-region'])): ?>
+          <?php print render($page['yellow-region']); ?>
+        <?php endif; ?>
       </div>
-
-      <div class="speakers-list">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="speaker-info">
-              <div class="img-speaker">
-                <img src="public/images/spkr-melvin-collins.png">
-              </div>
-              <p class="speaker-name">Melvin Collins</p>
-              <p class="speaker-short-bio">Drupal.com, Founder</p>
-              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="speaker-info">
-              <div class="img-speaker">
-                <img src="public/images/speaker2.png">
-              </div>
-              <p class="speaker-name">Melvin Collins</p>
-              <p class="speaker-short-bio">Drupal.com, Founder</p>
-              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="speaker-info">
-              <div class="img-speaker">
-                <img src="public/images/speaker3.png">
-              </div>
-              <p class="speaker-name">Melvin Collins</p>
-              <p class="speaker-short-bio">Drupal.com, Founder</p>
-              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="speaker-info">
-              <div class="img-speaker">
-                <img src="public/images/speaker4.png">
-              </div>
-              <p class="speaker-name">Melvin Collins</p>
-              <p class="speaker-short-bio">Drupal.com, Founder</p>
-              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3">
-            <div class="speaker-info">
-              <div class="img-speaker">
-                <img src="public/images/speaker5.png">
-              </div>
-              <p class="speaker-name">Melvin Collins</p>
-              <p class="speaker-short-bio">Drupal.com, Founder</p>
-              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="speaker-info">
-              <div class="img-speaker">
-                <img src="public/images/speaker6.png">
-              </div>
-              <p class="speaker-name">Melvin Collins</p>
-              <p class="speaker-short-bio">Drupal.com, Founder</p>
-              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="speaker-info">
-              <div class="img-speaker">
-                <img src="public/images/speaker7.png">
-              </div>
-              <p class="speaker-name">Melvin Collins</p>
-              <p class="speaker-short-bio">Drupal.com, Founder</p>
-              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="speaker-info">
-              <div class="img-speaker">
-                <img src="public/images/speaker8.png">
-              </div>
-              <p class="speaker-name">Melvin Collins</p>
-              <p class="speaker-short-bio">Drupal.com, Founder</p>
-              <p class="speaker-bio">Eiusmod fringilla sollicitudin bibendum sunt hymenaeos, facilis ridiculus, vol uptatibus, phasellus laborum accusa ntium nostra adipiscing animi aliquam, facere justo do voluptatum</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
     </div>
   </div>
-<?php endif; ?>
+</div>
 
 <?php if (!empty($page['blue-region'])): ?>
   <div class="camp-sessions-wave"></div>
@@ -464,6 +374,8 @@ $images_dir = '/public/images/';
     </div>
   </div>
 <?php endif; ?>
+
+</div>
 
 <div class="camp-sponsors">
   <div class="container">

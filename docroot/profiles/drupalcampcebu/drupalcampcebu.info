@@ -6,27 +6,29 @@ core = 7.x
 dependencies[] = block
 dependencies[] = dblog
 dependencies[] = field_group
-dependencies[] = libraries
 dependencies[] = image
+dependencies[] = libraries
+dependencies[] = menu
 dependencies[] = taxonomy
 
 ; Contrib
 dependencies[] = admin_menu
+dependencies[] = ctools
 dependencies[] = date
+dependencies[] = disqus
 dependencies[] = entityreference
 dependencies[] = entity
-dependencies[] = jquery_update
-dependencies[] = mailchimp
-dependencies[] = strongarm
-dependencies[] = views
-dependencies[] = link
-dependencies[] = ctools
-dependencies[] = uuid
-dependencies[] = uuid_features
 dependencies[] = features
 dependencies[] = field_permissions
+dependencies[] = jquery_update
+dependencies[] = link
+dependencies[] = mailchimp
+dependencies[] = module_filter
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = uuid
+dependencies[] = uuid_features
 dependencies[] = webform
-dependencies[] = disqus
 
 ; Features
 dependencies[] = content_webform
