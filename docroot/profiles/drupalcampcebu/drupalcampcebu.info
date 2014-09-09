@@ -14,6 +14,7 @@ dependencies[] = taxonomy
 ; Contrib
 dependencies[] = admin_menu
 dependencies[] = ctools
+dependencies[] = context
 dependencies[] = date
 dependencies[] = disqus
 dependencies[] = entityreference
@@ -36,3 +37,4 @@ dependencies[] = content_session
 dependencies[] = config_mailchimp
 dependencies[] = config_user_profile
 dependencies[] = config_environment_indicator_feature
+dependencies[] = context_homepage
