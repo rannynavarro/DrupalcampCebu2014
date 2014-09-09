@@ -175,6 +175,7 @@ ul.menu {
 }
 .camp-speakers {
   background-color: #f1c419;
+  padding-bottom: 100px;
   h6.speaker-description {
     font-size: 22px;
     text-align: center;
@@ -184,7 +185,7 @@ ul.menu {
     text-align: center;
   }
 }
-.row .speakers-list {
+/*.row .speakers-list {
   margin-bottom: 75px;
   .speaker-info {
     img {
@@ -219,6 +220,38 @@ ul.menu {
         margin-top: 5px;
       }
     }
+  }
+}*/
+
+.col-md-3 {
+  margin-top: 55px;
+  .img-speaker {
+    text-align: center;
+    width: 128px;
+    height: 128px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-left: 25%;
+    img {
+      width: 118px;
+      height: 118px;
+      border-radius: 100px;
+      margin-top: 5px;
+    }
+  }
+  p.speaker-name {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+  }
+  p.speaker-short-bio {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+  }
+  .speaker-bio {
+    font-size: 16px;
+    text-align: center;
   }
 }
 
