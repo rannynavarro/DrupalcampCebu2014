@@ -175,6 +175,7 @@ ul.menu {
 }
 .camp-speakers {
   background-color: #f1c419;
+  padding-bottom: 100px;
   h6.speaker-description {
     font-size: 22px;
     text-align: center;
@@ -184,42 +185,38 @@ ul.menu {
     text-align: center;
   }
 }
-.speakers-list {
-  margin-bottom: 75px;
-  .speaker-info {
+.col-md-3 {
+  margin-top: 55px;
+  .img-speaker {
+    text-align: center;
+    width: 128px;
+    height: 128px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-left: 25%;
     img {
-      text-align: center;
-    }
-    p.speaker-name {
-      font-size: 24px;
-      color: white;
-      margin-bottom: 0px;
-      text-align: center;
-    }
-    p.speaker-short-bio {
-      font-size: 18px;
-      color: white;
-      text-align: center;
-    }
-    p.speaker-bio {
-      font-size: 16px;
-    }
-    .img-speaker {
-      text-align: center;
-      margin-top: 50px;
-      background-color: #fff;
-      height: 128px;
-      width: 128px;
+      width: 118px;
+      height: 118px;
       border-radius: 100px;
-      margin-left: 25%;
-      img {
-        border-radius: 100px;
-        width: 118px;
-        height: 118px;
-        margin-top: 5px;
-      }
+      margin-top: 5px;
+    }
+  }
+  p.speaker-name {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+  }
+  p.speaker-short-bio {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+  }
+  .speaker-bio {
+    font-size: 16px;
+    text-align: center;
   }
 }
+
 
 .camp-sessions-wave {
   background: url('../images/blue-wave.png');

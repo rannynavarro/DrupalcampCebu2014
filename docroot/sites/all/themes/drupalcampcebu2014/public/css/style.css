@@ -276,89 +276,97 @@ ul.menu li a:hover {
 /* line 176, ../sass/partials/_global.scss */
 .camp-speakers {
   background-color: #f1c419;
+  padding-bottom: 100px;
 }
-/* line 178, ../sass/partials/_global.scss */
+/* line 179, ../sass/partials/_global.scss */
 .camp-speakers h6.speaker-description {
   font-size: 22px;
   text-align: center;
 }
-/* line 182, ../sass/partials/_global.scss */
+/* line 183, ../sass/partials/_global.scss */
 .camp-speakers p.speaker-announcement {
   font-size: 24px;
   text-align: center;
 }
 
-/* line 187, ../sass/partials/_global.scss */
-.speakers-list {
-  margin-bottom: 75px;
+/* line 188, ../sass/partials/_global.scss */
+.col-md-3 {
+  margin-top: 55px;
 }
 /* line 190, ../sass/partials/_global.scss */
-.speakers-list .speaker-info img {
+.col-md-3 .img-speaker {
   text-align: center;
+  width: 128px;
+  height: 128px;
+  background-color: #fff;
+  border-radius: 100px;
+  margin-left: 25%;
 }
-/* line 193, ../sass/partials/_global.scss */
-.speakers-list .speaker-info p.speaker-name {
-  font-size: 24px;
-  color: white;
-  margin-bottom: 0px;
-  text-align: center;
-}
-/* line 199, ../sass/partials/_global.scss */
-.speakers-list .speaker-info p.speaker-short-bio {
-  font-size: 18px;
-  color: white;
-  text-align: center;
+/* line 197, ../sass/partials/_global.scss */
+.col-md-3 .img-speaker img {
+  width: 118px;
+  height: 118px;
+  border-radius: 100px;
+  margin-top: 5px;
 }
 /* line 204, ../sass/partials/_global.scss */
-.speakers-list .speaker-info p.speaker-bio {
-  font-size: 16px;
-}
-/* line 207, ../sass/partials/_global.scss */
-.speakers-list .speaker-info .img-speaker {
+.col-md-3 p.speaker-name {
+  font-size: 24px;
   text-align: center;
-  margin-top: 50px;
+  color: #fff;
+}
+/* line 209, ../sass/partials/_global.scss */
+.col-md-3 p.speaker-short-bio {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+/* line 214, ../sass/partials/_global.scss */
+.col-md-3 .speaker-bio {
+  font-size: 16px;
+  text-align: center;
 }
 
-/* line 214, ../sass/partials/_global.scss */
+/* line 221, ../sass/partials/_global.scss */
 .camp-sessions-wave {
   background: url("../images/blue-wave.png");
   height: 40px;
   margin-top: -39px;
 }
 
-/* line 219, ../sass/partials/_global.scss */
+/* line 226, ../sass/partials/_global.scss */
 .camp-sessions {
   background-color: #0076b0;
 }
-/* line 221, ../sass/partials/_global.scss */
+/* line 228, ../sass/partials/_global.scss */
 .camp-sessions h6 {
   font-family: "SourceSansPro";
   font-size: 22px;
   color: white;
   text-align: center;
 }
-/* line 227, ../sass/partials/_global.scss */
+/* line 234, ../sass/partials/_global.scss */
 .camp-sessions p {
   font-size: 24px;
   color: white;
   text-align: center;
 }
 
-/* line 235, ../sass/partials/_global.scss */
+/* line 242, ../sass/partials/_global.scss */
 ul.nav-tabs {
   border-bottom: 0px;
   margin: 50px 0px;
 }
-/* line 238, ../sass/partials/_global.scss */
+/* line 245, ../sass/partials/_global.scss */
 ul.nav-tabs li {
   width: 248px;
   height: 84px;
 }
-/* line 241, ../sass/partials/_global.scss */
+/* line 248, ../sass/partials/_global.scss */
 ul.nav-tabs li:nth-child(1) {
   margin-left: 205px;
 }
-/* line 244, ../sass/partials/_global.scss */
+/* line 251, ../sass/partials/_global.scss */
 ul.nav-tabs li a {
   border: none !important;
   background: none !important;
@@ -366,75 +374,75 @@ ul.nav-tabs li a {
   color: white;
   font-family: "chinese rocks", sans-serif;
 }
-/* line 250, ../sass/partials/_global.scss */
+/* line 257, ../sass/partials/_global.scss */
 ul.nav-tabs li a span.tab-title {
   font-size: 58px;
   float: left;
 }
-/* line 254, ../sass/partials/_global.scss */
+/* line 261, ../sass/partials/_global.scss */
 ul.nav-tabs li a span.tab-left-first {
   font-size: 30px;
   float: right;
   line-height: 17px;
   margin-top: 24px;
 }
-/* line 260, ../sass/partials/_global.scss */
+/* line 267, ../sass/partials/_global.scss */
 ul.nav-tabs li a span.tab-left-second {
   font-size: 20px;
   float: right;
 }
-/* line 266, ../sass/partials/_global.scss */
+/* line 273, ../sass/partials/_global.scss */
 ul.nav-tabs li.active {
   background: url("../images/tab-active.png") no-repeat;
 }
-/* line 268, ../sass/partials/_global.scss */
+/* line 275, ../sass/partials/_global.scss */
 ul.nav-tabs li.active a {
   color: #f0c419;
 }
-/* line 271, ../sass/partials/_global.scss */
+/* line 278, ../sass/partials/_global.scss */
 ul.nav-tabs li.active a:hover {
   background-color: transparent;
   padding-top: 0;
   color: #f0c419;
 }
 
-/* line 279, ../sass/partials/_global.scss */
+/* line 286, ../sass/partials/_global.scss */
 .table {
   margin-left: 60px;
   margin-bottom: 50px;
 }
-/* line 284, ../sass/partials/_global.scss */
+/* line 291, ../sass/partials/_global.scss */
 .table tbody tr .time {
   width: 15%;
   color: #f1c419;
   font-family: "SourceSansPro";
   font-size: 22px;
 }
-/* line 290, ../sass/partials/_global.scss */
+/* line 297, ../sass/partials/_global.scss */
 .table tbody tr td {
   border-top: 0px;
 }
-/* line 293, ../sass/partials/_global.scss */
+/* line 300, ../sass/partials/_global.scss */
 .table tbody tr p {
   text-align: left;
 }
-/* line 296, ../sass/partials/_global.scss */
+/* line 303, ../sass/partials/_global.scss */
 .table tbody tr p.place {
   color: #00496d;
   font-size: 15px;
 }
-/* line 299, ../sass/partials/_global.scss */
+/* line 306, ../sass/partials/_global.scss */
 .table tbody tr p.place span.category {
   color: #f0c419;
 }
-/* line 303, ../sass/partials/_global.scss */
+/* line 310, ../sass/partials/_global.scss */
 .table tbody tr p.speaker {
   color: #fff;
   margin-bottom: 0px;
   font-size: 15px;
 }
 
-/* line 313, ../sass/partials/_global.scss */
+/* line 320, ../sass/partials/_global.scss */
 .camp-footer {
   background-color: #1d2734;
 }
