@@ -107,6 +107,10 @@ ul.navbar-nav {
   margin-bottom: 75px;
 }
 
+.page-header {
+  border: none;
+}
+
 .nav-container  { 
   background-color: #1d2734;
 }
@@ -217,7 +221,6 @@ ul.menu {
   }
 }
 
-
 .camp-sessions-wave {
   background: url('../images/blue-wave.png');
   height: 40px;
@@ -237,7 +240,6 @@ ul.menu {
       text-align: center;
     }
 }
-
 
 ul.nav-tabs {
   border-bottom: 0px;
