@@ -30,18 +30,16 @@ function config_user_profile_field_default_field_instances() {
     'label' => 'Biography',
     'required' => 0,
     'settings' => array(
-      'display_summary' => 0,
-      'text_processing' => 1,
-      'user_register_form' => 1,
+      'text_processing' => 0,
+      'user_register_form' => 0,
     ),
     'widget' => array(
       'active' => 1,
       'module' => 'text',
       'settings' => array(
         'rows' => 5,
-        'summary_rows' => 5,
       ),
-      'type' => 'text_textarea_with_summary',
+      'type' => 'text_textarea',
       'weight' => 10,
     ),
   );

@@ -37,7 +37,7 @@ function config_user_profile_field_default_field_bases() {
     'module' => 'text',
     'settings' => array(),
     'translatable' => 0,
-    'type' => 'text_with_summary',
+    'type' => 'text_long',
   );
 
   // Exported field_base: 'field_image'

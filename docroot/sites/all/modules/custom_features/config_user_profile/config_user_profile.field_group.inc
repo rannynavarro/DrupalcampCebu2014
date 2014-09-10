@@ -53,7 +53,7 @@ function config_user_profile_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'MailChimp Subscription',
-    'weight' => '2',
+    'weight' => '3',
     'children' => array(
       0 => 'field_user_email',
       1 => 'field_user_mailchimp',
