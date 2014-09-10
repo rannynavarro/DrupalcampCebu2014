@@ -1,7 +1,7 @@
-name = speakers'views
+name = Speakers Views
 description = This is the views for speakers and speakers sorting page
 core = 7.x
-package = views
+package = Views
 dependencies[] = views
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2

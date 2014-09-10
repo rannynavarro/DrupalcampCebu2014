@@ -38,3 +38,4 @@ dependencies[] = config_mailchimp
 dependencies[] = config_user_profile
 dependencies[] = config_environment_indicator_feature
 dependencies[] = context_homepage
+dependencies[] = views_speakers_views_feature
