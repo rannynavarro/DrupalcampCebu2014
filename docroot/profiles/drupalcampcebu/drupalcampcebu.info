@@ -30,6 +30,7 @@ dependencies[] = views
 dependencies[] = uuid
 dependencies[] = uuid_features
 dependencies[] = webform
+dependencies[] = draggableviews
 
 ; Features
 dependencies[] = content_webform
@@ -39,3 +40,4 @@ dependencies[] = config_user_profile
 dependencies[] = config_environment_indicator_feature
 dependencies[] = context_homepage
 dependencies[] = views_speakers_views_feature
+dependencies[] = media_image_styles_feature
