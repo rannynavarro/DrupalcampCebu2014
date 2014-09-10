@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the speakers'views feature.
+ */
+
+include_once 'speakers_views.features.inc';
