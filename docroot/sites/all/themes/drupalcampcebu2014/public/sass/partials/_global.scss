@@ -212,23 +212,26 @@ ul.menu {
     }
   }
   p.speaker-drupalcamp-topic {
-    font-size: 24px;
-    text-align: center;
-    color: #fff;
-    font-family: $font-logo;
-    a {
+      font-size: 24px;
+      text-align: center;
       color: #fff;
-      text-decoration: none;
-    }
- }
+      font-family: $font-logo;
+      margin-top: 25px;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+  }
   p.speaker-drupalcamp {
     font-size: 18px;
     color: #fff;
     text-align: center;
+    line-height: 0px;
   }
   .topic-summary {
     font-size: 16px;
     text-align: center;
+    margin-top: 25px;
   }
 }
 .camp-sessions-wave {
