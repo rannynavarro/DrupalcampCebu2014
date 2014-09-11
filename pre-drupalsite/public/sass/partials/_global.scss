@@ -207,7 +207,7 @@ ul.menu {
       margin-top: 5px;
     }
   }
-  a {
+  /*a {
     text-decoration: none;
     p.speaker-drupalcamp-topic {
       font-size: 24px;
@@ -218,6 +218,16 @@ ul.menu {
         text-decoration: none;
       }
     }
+  }*/
+  p.speaker-drupalcamp-topic {
+      font-size: 24px;
+      text-align: center;
+      color: #fff;
+      font-family: $font-logo;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
   }
   p.speaker-drupalcamp {
     font-size: 18px;
