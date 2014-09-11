@@ -174,6 +174,12 @@ ul.menu {
   margin-top: -115px;
 }
 .camp-speakers {
+  h1 {
+  font-family: chinese rocks;
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  }
   background-color: #f1c419;
   padding-bottom: 100px;
   h6.speaker-description {
@@ -185,44 +191,6 @@ ul.menu {
     text-align: center;
   }
 }
-/*.row .speakers-list {
-  margin-bottom: 75px;
-  .speaker-info {
-    img {
-      text-align: center;
-    }
-    p.speaker-name {
-      font-size: 24px;
-      color: white;
-      margin-bottom: 0px;
-      text-align: center;
-    }
-    p.speaker-short-bio {
-      font-size: 18px;
-      color: white;
-      text-align: center;
-    }
-    p.speaker-bio {
-      font-size: 16px;
-    }
-    .img-speaker {
-      text-align: center;
-      margin-top: 50px;
-      background-color: #fff;
-      height: 128px;
-      width: 128px;
-      border-radius: 100px;
-      margin-left: 25%;
-      img {
-        border-radius: 100px;
-        width: 118px;
-        height: 118px;
-        margin-top: 5px;
-      }
-    }
-  }
-}*/
-
 .col-md-3 {
   margin-top: 55px;
   .img-speaker {
@@ -239,17 +207,24 @@ ul.menu {
       margin-top: 5px;
     }
   }
-  p.speaker-name {
-    font-size: 24px;
-    text-align: center;
-    color: #fff;
+  a {
+    text-decoration: none;
+    p.speaker-drupalcamp-topic {
+      font-size: 24px;
+      text-align: center;
+      color: #fff;
+      font-family: $font-logo;
+      a:hover {
+        text-decoration: none;
+      }
+    }
   }
-  p.speaker-short-bio {
+  p.speaker-drupalcamp {
     font-size: 18px;
     color: #fff;
     text-align: center;
   }
-  .speaker-bio {
+  .topic-summary {
     font-size: 16px;
     text-align: center;
   }
