@@ -23,18 +23,7 @@ function context_homepage_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views-speakers-block' => array(
-          'module' => 'views',
-          'delta' => 'speakers-block',
-          'region' => 'yellow-region',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
+  $context->reactions = array();
   $context->condition_mode = 1;
 
   // Translatables
