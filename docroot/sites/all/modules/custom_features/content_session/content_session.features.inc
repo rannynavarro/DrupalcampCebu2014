@@ -21,7 +21,7 @@ function content_session_node_info() {
     'session' => array(
       'name' => t('Session'),
       'base' => 'node_content',
-      'description' => t('Drupal camp cebu session contents'),
+      'description' => t('Drupal Camp Cebu session contents.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
