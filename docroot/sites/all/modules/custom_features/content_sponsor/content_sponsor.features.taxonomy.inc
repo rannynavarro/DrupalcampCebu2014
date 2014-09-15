@@ -12,7 +12,7 @@ function content_sponsor_taxonomy_default_vocabularies() {
     'sponsor_type' => array(
       'name' => 'Sponsor type',
       'machine_name' => 'sponsor_type',
-      'description' => 'Types of sponsors allowed in the Drupal Camp Cebu.',
+      'description' => 'Types of sponsors or level.',
       'hierarchy' => 0,
       'module' => 'taxonomy',
       'weight' => 0,
