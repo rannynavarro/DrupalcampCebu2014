@@ -35,6 +35,14 @@ function content_session_uuid_features_default_terms() {
     'vocabulary_machine_name' => 'level',
   );
   $terms[] = array(
+    'name' => 'Day 2',
+    'description' => '',
+    'format' => 'plain_text',
+    'weight' => 0,
+    'uuid' => '803ab818-7a32-47b4-a8b4-9107ec4446a0',
+    'vocabulary_machine_name' => 'day',
+  );
+  $terms[] = array(
     'name' => 'Intermediate',
     'description' => '',
     'format' => 'plain_text',
@@ -65,6 +73,14 @@ function content_session_uuid_features_default_terms() {
     'weight' => 1,
     'uuid' => 'b00d3598-c7b8-4c3b-a75c-2706cd989f50',
     'vocabulary_machine_name' => 'type',
+  );
+  $terms[] = array(
+    'name' => 'Day 1',
+    'description' => '',
+    'format' => 'plain_text',
+    'weight' => 0,
+    'uuid' => 'fd7224aa-ff58-47a4-9b73-c6e2c2f2c13a',
+    'vocabulary_machine_name' => 'day',
   );
   return $terms;
 }
