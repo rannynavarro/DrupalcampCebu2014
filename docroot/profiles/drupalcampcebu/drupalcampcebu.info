@@ -27,6 +27,7 @@ dependencies[] = mailchimp
 dependencies[] = module_filter
 dependencies[] = strongarm
 dependencies[] = views
+dependencies[] = url
 dependencies[] = uuid
 dependencies[] = uuid_features
 dependencies[] = webform
@@ -35,6 +36,7 @@ dependencies[] = draggableviews
 ; Features
 dependencies[] = content_webform
 dependencies[] = content_session
+dependencies[] = content_sponsor
 dependencies[] = config_mailchimp
 dependencies[] = config_user_profile
 dependencies[] = config_environment_indicator_feature
