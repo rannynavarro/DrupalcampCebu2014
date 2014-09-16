@@ -42,6 +42,7 @@ dependencies[] = content_page
 dependencies[] = content_session
 dependencies[] = content_sponsor
 dependencies[] = content_webform
+dependencies[] = context_sitewide
 dependencies[] = config_ckeditor_profiles
 dependencies[] = config_imce_profiles
 dependencies[] = config_mailchimp
