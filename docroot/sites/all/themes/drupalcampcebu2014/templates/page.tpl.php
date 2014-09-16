@@ -106,7 +106,7 @@ $images_dir = '/public/images/';
           <div class="row">
             <div class="col-md-12">
               <p>Drupalcamp Cebu is a 1.5 day conference organized by  the Drupal Cebu User Group. This is the first Drupalcamp in the Philippines, outside of Manila. We wish to bring together a variety of people interested in learning and growing skills in open-source, web development, business, DevOps, web design and more with great speakers and sessions.<br>
-                Join us to learn, attend great sessions for various levels of experience, social events and cebu&#39;s specialities &#59;)</p>
+                Join us to learn, attend great sessions for various levels of experience, social events and Cebu&#39;s specialities &#59;)</p>
             </div>
           </div>
         </div>
