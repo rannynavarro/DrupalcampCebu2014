@@ -13,14 +13,18 @@ dependencies[] = taxonomy
 
 ; Contrib
 dependencies[] = admin_menu
-dependencies[] = ctools
 dependencies[] = context
+dependencies[] = ctools
+dependencies[] = ckeditor
+dependencies[] = ckeditor_image
 dependencies[] = date
 dependencies[] = disqus
 dependencies[] = entityreference
 dependencies[] = entity
 dependencies[] = features
 dependencies[] = field_permissions
+dependencies[] = imce
+dependencies[] = imce_uploader
 dependencies[] = jquery_update
 dependencies[] = link
 dependencies[] = mailchimp
@@ -34,9 +38,12 @@ dependencies[] = webform
 dependencies[] = draggableviews
 
 ; Features
-dependencies[] = content_webform
+dependencies[] = content_page
 dependencies[] = content_session
 dependencies[] = content_sponsor
+dependencies[] = content_webform
+dependencies[] = config_ckeditor_profiles
+dependencies[] = config_imce_profiles
 dependencies[] = config_mailchimp
 dependencies[] = config_user_profile
 dependencies[] = config_environment_indicator_feature
