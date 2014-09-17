@@ -1,4 +1,4 @@
-name = Speakers Views
+name = Views Speakers
 description = This is the views for speakers and speakers sorting page
 core = 7.x
 package = Views
