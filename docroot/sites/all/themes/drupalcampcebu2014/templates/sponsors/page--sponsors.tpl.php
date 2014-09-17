@@ -123,10 +123,6 @@ $images_dir = '/public/images/';
               <?php if (!empty($primary_nav)): ?>
                 <ul class="menu">
                   <div class="col-md-3">
-                    <li class="logo-title-menu logo-title-menu-hidden">
-                      <span class="title-1st">DRUPAL</span><span class="title-2nd">CAMP</span>
-                      <span class="title-3rd">CEBU</span>
-                    </li>
                   </div>
                   <div class="col-md-6">
                     <?php
@@ -148,13 +144,13 @@ $images_dir = '/public/images/';
 
 </div>
 
-<div class="camp-speakers-wave"></div>
+<div class="camp-sponsors-wave"></div>
 
 
-<div class="camp-speakers">
+<div class="camp-sponsors">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 drupalcamp-speakers">
+      <div class="col-md-12 drupalcamp-sponsors">
         <?php if (!empty($title)): ?>
           <h1 class="page-header"><?php print $title; ?></h1>
         <?php endif; ?>
@@ -361,29 +357,23 @@ $images_dir = '/public/images/';
   </div>
 <?php endif; ?>
 
-<?php if (!empty($page['map-region'])): ?>
+<?php if(drupal_is_front_page()):?>
   <div class="camp-venue">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <?php print render($page['map-region']); ?>
+          <div class="venue-info">
+            <h3 class="venue-label">Venue</h3>
+            <p class="venue-address">UNIVERSITY OF SAN CARLOS - Talamban Campus. Nasipit, Talamban Cebu City.</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3924.8531820579547!2d123.9109376342627!3d10.353622172260941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUniversity+of+San+Carlos%2C+Talamban!5e0!3m2!1sen!2sph!4v1409822043976" width="100%" height="700px" frameborder="0" style="border:0"></iframe>
         </div>
       </div>
     </div>
   </div>
 <?php endif; ?>
 
-<?php if (!empty($page['grey-region'])): ?>
-<div class="camp-sponsors">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 drupalcamp-sponsors">
-        <?php print render($page['grey-region']); ?>
-      </div>
-    </div>
-  </div>
 </div>
-<?php endif; ?>
 
 <div class="camp-footer">
   <div class="container">

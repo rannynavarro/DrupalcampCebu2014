@@ -4,6 +4,7 @@ core = 7.x
 package = Context
 dependencies[] = context
 dependencies[] = ctools
+dependencies[] = drupalcebu2014_map
 dependencies[] = views
 features[context][] = homepage
 features[ctools][] = context:context:3

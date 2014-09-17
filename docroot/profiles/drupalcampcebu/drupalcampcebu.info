@@ -37,6 +37,9 @@ dependencies[] = uuid_features
 dependencies[] = webform
 dependencies[] = draggableviews
 
+; Custom
+dependencies[] = drupalcebu2014_map
+
 ; Features
 dependencies[] = content_page
 dependencies[] = content_session
@@ -50,4 +53,5 @@ dependencies[] = config_user_profile
 dependencies[] = config_environment_indicator
 dependencies[] = context_homepage
 dependencies[] = views_speakers
+dependencies[] = sponsors_views
 dependencies[] = media_image_styles

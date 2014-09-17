@@ -23,7 +23,24 @@ function context_homepage_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'drupalcebu2014_map-drupalcebu2014_map_text' => array(
+          'module' => 'drupalcebu2014_map',
+          'delta' => 'drupalcebu2014_map_text',
+          'region' => 'map-region',
+          'weight' => '-10',
+        ),
+        'views-sponsors-block_1' => array(
+          'module' => 'views',
+          'delta' => 'sponsors-block_1',
+          'region' => 'grey-region',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 1;
 
   // Translatables
