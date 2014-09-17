@@ -1,12 +1,12 @@
 <?php
 /**
  * @file
- * sponsors_views.features.inc
+ * views_sponsors.features.inc
  */
 
 /**
  * Implements hook_views_api().
  */
-function sponsors_views_views_api($module = NULL, $api = NULL) {
+function views_sponsors_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }

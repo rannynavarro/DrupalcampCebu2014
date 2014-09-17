@@ -4,4 +4,4 @@
  * Code for the Sponsors Views feature.
  */
 
-include_once 'sponsors_views.features.inc';
+include_once 'views_sponsors.features.inc';
