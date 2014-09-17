@@ -5,6 +5,7 @@ package = Context
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = drupalcebu2014_map
+dependencies[] = quicktabs
 dependencies[] = views
 features[context][] = homepage
 features[ctools][] = context:context:3

@@ -66,6 +66,13 @@ function views_sessions_views_default_views() {
   $handler->display->display_options['fields']['field_speaker']['settings'] = array(
     'link' => 0,
   );
+  /* Field: Content: Level */
+  $handler->display->display_options['fields']['field_level']['id'] = 'field_level';
+  $handler->display->display_options['fields']['field_level']['table'] = 'field_data_field_level';
+  $handler->display->display_options['fields']['field_level']['field'] = 'field_level';
+  $handler->display->display_options['fields']['field_level']['label'] = '';
+  $handler->display->display_options['fields']['field_level']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_level']['type'] = 'taxonomy_term_reference_plain';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
